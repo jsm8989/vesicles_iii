@@ -10,3 +10,4 @@
 - Modify Guil's simulation dynamics for RBCs
 - Start writing report/paper outline
 - Collect/write up relevant protocols so I don't forget them (also eg confocal user guide)
+- Find good way of uploading handwritten notes to here
