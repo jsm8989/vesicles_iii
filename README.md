@@ -9,3 +9,4 @@
 - Contribute to section 4.1 of Temika guide
 - Modify Guil's simulation dynamics for RBCs
 - Start writing report/paper outline
+- Collect/write up relevant protocols so I don't forget them (also eg confocal user guide)
