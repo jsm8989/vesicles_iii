@@ -37,7 +37,7 @@ Lab book shows:
 
 Suggested structure:
 - Abstract, ToC, Intro, Lit review, Methods, Theory, Results, Discussion, Conclusion, References ("a decent number"), Appendices (unlikely to be read in detail)
-- Expect 20-30 pages excluding ref and appendices
+- Expect 20-30 pages excluding ref and appendices (but including fig captions)
 
 
 ### Scientific writing style
