@@ -14,3 +14,4 @@
 
 - Send Pietro images to check on the right track (when getting good ones - can check older stuff) (27/1)
 - Get more comfortable with ImageJ
+- Speak to rutherford hub about claiming refunds (see Katie's last attempt a while ago)
