@@ -14,9 +14,10 @@ A general space for writing about things in the lab. Will likely be messy.
 
 
 ### 27/1/22
-- Group meeting this afternoon. Questions for Pietro:
-  - MATLAB routine for confocal contour processing? Is this different to fluoro ones (and why? - check with Guil)
-  - Are there any other BF/fluoro microscopes to check samples when tweezers room is in use/CL3?
+- Group meeting this afternoon. Aske presentation on post-transcriptional regulation in sRNA. Questions for Pietro:
+  - MATLAB routine for confocal contour processing? Is this different to fluoro ones (and why? - check with Guil) >> Guil has the most recent ones
+  - Are there any other BF/fluoro microscopes to check samples when tweezers room is in use/CL3? >> 0.34 or something (another Temika - ask Guil) and in the Tissue Culture room.
   - What is the plan with the Olympus?
-- Have booked confocal for 16:30-17:30
+- Have booked confocal for 16:30-17:30, post engineer service
+- Plasma bonded PDMS cutout to cover slip for confocal imaging this afternoon, will use vesicle sample from monday, using 80uL of 400mM glucose and 20uL of vesicles produced with 300mM sucrose. 
 - 
