@@ -6,3 +6,17 @@ A general space for writing about things in the lab. Will likely be messy.
 - Ideally need to get some DLW time early this week to have a working prototype lab-on-a-chip for friday
 - See handwritten page of notes for confocal time and usage. Will be useful as a reference for next time. Maybe ask Pietro for the matlab script for analysing confocal contours (different to BF ones)
 - 
+
+
+### 25/1/22
+- Spent some time coding and thinking about ESA diffusion project alongside first day of lectures (which was fairly full)
+- Spoke to Dean about training on the new microfluidics setup, should be able to do so next week
+
+
+### 27/1/22
+- Group meeting this afternoon. Questions for Pietro:
+  - MATLAB routine for confocal contour processing? Is this different to fluoro ones (and why? - check with Guil)
+  - Are there any other BF/fluoro microscopes to check samples when tweezers room is in use/CL3?
+  - What is the plan with the Olympus?
+- Have booked confocal for 16:30-17:30
+- 
