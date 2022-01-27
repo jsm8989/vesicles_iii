@@ -11,3 +11,6 @@
 - Start writing report/paper outline
 - Collect/write up relevant protocols so I don't forget them (also eg confocal user guide)
 - Find good way of uploading handwritten notes to here
+
+- Send Pietro images to check on the right track (when getting good ones - can check older stuff) (27/1)
+- Get more comfortable with ImageJ
