@@ -65,3 +65,4 @@ A general space for writing about things in the lab. Will likely be messy.
   - I have created a "jamie" branch on Guil's contour_analyzer repo to keep track of my own changes/documentation (could also just fork it but may be nice to merge later on)
   - Next up: generating my own contour text file from the c++
 - NB: Aske had Will sort a few things on the office PC including downloading Ilastik for all users, could be worth exploring although maybe it only deals with single frames and hecne not as useful for my purposes.
+- Note that running the analysis on the same contour multiple times gives the same results
