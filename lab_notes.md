@@ -32,3 +32,24 @@ A general space for writing about things in the lab. Will likely be messy.
   - Changing input laser power didn't do much, nor did changing the PMT range (it seems as long as the peak and a decent bit up to FWHM is covered that will do)
   - took ~0.5GB data (most of which will not be useful), saved in D: and E: under "jsm89_temp_for_transfer" (can only save locally today as IT needs to reconnect it to the network)
 - Also considered imaging in BF. Need to ask Jurij for account on that computer. Also need to go through changing the cameras with Guil (and why we have to do this...)
+
+
+### 28/1/22
+- Got account on Fedora PC in Leica room, will need to get Guil/Jurij to show me how to change the cameras over (and what the benefit of doing this is, as Jurij seemed a little confused, but it made some sense when I said I was doing flickering experiments)
+  - NB the leica can already do some kind of BF transmission
+- Imaged Monday's samples (again 80/20 glucose/vesicles) on the Nikon to refamiliarise with Fedora.
+- Notes on BF:
+  - Write up Jurij's step-by-step protocol for optimum imaging, as not sure if I have got it here (although it ended up being pretty clear, and temika is quite intuitive I find)
+  - Struggled to see anything on 40x mag but was clear on 20x and 10x
+  - The vesicles were not very floppy at all, perhaps for similar reasons as mentioned yesterday
+  - The temika z-drive controls are very delayed and it seems more useful to sue the focus knob on the scope (without leaning on the optical table ideally)
+  - Curious whether "eye" option (either on temika or the physical button) actually allows you to see through the eyepieces, as this did not seem to be the case today
+  - There appear to be a few "burst vesicles" or something similar at the bottom of the sample (maybe also remnant oil after using it on the wet objective yesterday - should really get different sample holders. Perhaps also a thicker optical slide will also allow use of the 40x objective as in the past we were definitely more zoomed in on inidividual vesicles)
+  - Once again the majority of the vesicles were nicely at the bottom of the glucose - could be relevant to ESA project ie whether they need to be "trapped" at all?
+  - I also need to play around with the camera settings, similarly with leica imaging, as I remember in the apst it was easy to capture fewer frames
+  -
+- Attempted fluorescence (ie channel 1 illumination - remember to (physically?) change the FL block)
+  - Could not quite get this to work, will have to double check which filter block and which LED to illuminate with (see eg spectra and notes on door)
+  - Maybe the vesicles had somehow lost their fluorescence (although they were fluorescing on the confocal yesterday...)
+  - Also changed the BF significantly on returning to that
+  - Time for lectures, will have another go later if possible (although I think the room is booked for CL3 work for the rest of the afternoon)
