@@ -54,3 +54,9 @@ A general space for writing about things in the lab. Will likely be messy.
   - Also changed the BF significantly on returning to that
   - Time for lectures, will have another go later if possible (although I think the room is booked for CL3 work for the rest of the afternoon)
 - saved af ew images locally in data/
+
+
+- Software afternoon
+  - Reorganised directory structure on local laptop, cloning Guil's relevant github repos so I can pull/push any edits from either side
+  - Working out how to package them (adding __init__ and setup files to them) so I don't have to keep adding to path (inspired by discussion with Kieran yesterday who has done similar for a local conda package. Note he also wrote a bash script to keep reinstalling the package once it has been edited)
+  - 
