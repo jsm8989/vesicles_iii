@@ -53,3 +53,4 @@ A general space for writing about things in the lab. Will likely be messy.
   - Maybe the vesicles had somehow lost their fluorescence (although they were fluorescing on the confocal yesterday...)
   - Also changed the BF significantly on returning to that
   - Time for lectures, will have another go later if possible (although I think the room is booked for CL3 work for the rest of the afternoon)
+- saved af ew images locally in data/
