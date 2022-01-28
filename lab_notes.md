@@ -59,4 +59,4 @@ A general space for writing about things in the lab. Will likely be messy.
 - Software afternoon
   - Reorganised directory structure on local laptop, cloning Guil's relevant github repos so I can pull/push any edits from either side
   - Working out how to package them (adding __init__ and setup files to them) so I don't have to keep adding to path (inspired by discussion with Kieran yesterday who has done similar for a local conda package. Note he also wrote a bash script to keep reinstalling the package once it has been edited)
-  - 
+  - After a lot of time I realised (through talking to Sasha) that simply adding the relevant folders to path through sys.path.append() is a much quicker (if shorter-term) way of doing it, thanks Sasha!
