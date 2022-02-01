@@ -66,3 +66,11 @@ A general space for writing about things in the lab. Will likely be messy.
   - Next up: generating my own contour text file from the c++
 - NB: Aske had Will sort a few things on the office PC including downloading Ilastik for all users, could be worth exploring although maybe it only deals with single frames and hecne not as useful for my purposes.
 - Note that running the analysis on the same contour multiple times gives the same results
+
+
+### 31/1/21
+- Continued with the c++, going down many rabbit holes but ultimately making some progress. No lectures today so spent most of 10am-17:30 on the screen.
+- Pointers are confusing but at least I can now identify them and have a rough idea for how they're used.
+- Forked Guil's code to my own branch and pulled locally, was a nice system and ended up compiling as required (can also use the makefile as I imagine it was intended)
+- Spent a long time trying to change the header dependencies to tidy up the repo but got stuck and so had to revert back to an earlier commit and create a new branch
+- Just need to set up the intitial contour now (as in track_contours.cpp) and it should work from there; have only been testing on Guil's sample data so far. Guil is happy to help so try not to go down too many more rabbit holes!
