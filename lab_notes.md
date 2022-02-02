@@ -68,9 +68,17 @@ A general space for writing about things in the lab. Will likely be messy.
 - Note that running the analysis on the same contour multiple times gives the same results
 
 
-### 31/1/21
+### 31/1/22
 - Continued with the c++, going down many rabbit holes but ultimately making some progress. No lectures today so spent most of 10am-17:30 on the screen.
 - Pointers are confusing but at least I can now identify them and have a rough idea for how they're used.
 - Forked Guil's code to my own branch and pulled locally, was a nice system and ended up compiling as required (can also use the makefile as I imagine it was intended)
 - Spent a long time trying to change the header dependencies to tidy up the repo but got stuck and so had to revert back to an earlier commit and create a new branch
 - Just need to set up the intitial contour now (as in track_contours.cpp) and it should work from there; have only been testing on Guil's sample data so far. Guil is happy to help so try not to go down too many more rabbit holes!
+
+
+### 2/2/22
+- Spoke to Rafia from the Rutherford Hub about Katie's refund request from September. Got to meet the team (incl Steve, Frank, ?Methia) and turns out they have an open door policy. Rafia has been there since October
+- They found the request and apparently sorted it all out, but the "second approver" (who is someone else within the dept) never got round to approving it, hence no payment was ever made
+- They have processed it again, usually such requests are bundled and sent off on Wednesdays (ie today) so this one will go out next Wednesday, and payment should be received between 11-14th of Feb.
+- Now that we have done a trial run (hopefully successfully) we will process bigger claims in one go in the future, through the same expenses form as before.
+- Microfluidics tomorrow, be in the lab for 9! (and then finish ~17, nicely in time for footy training)
