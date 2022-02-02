@@ -14,5 +14,5 @@
 
 - Send Pietro images to check on the right track (when getting good ones - can check older stuff) (27/1)
 - Get more comfortable with ImageJ
-- Speak to rutherford hub about claiming refunds (see Katie's last attempt a while ago)
+- DONE Speak to rutherford hub about claiming refunds (see Katie's last attempt a while ago) 
 - Write up temika/BF microscope usage protocol and things to look out for (see handwritten notes from initial meeting with Jurij)
