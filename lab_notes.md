@@ -82,3 +82,19 @@ A general space for writing about things in the lab. Will likely be messy.
 - They have processed it again, usually such requests are bundled and sent off on Wednesdays (ie today) so this one will go out next Wednesday, and payment should be received between 11-14th of Feb.
 - Now that we have done a trial run (hopefully successfully) we will process bigger claims in one go in the future, through the same expenses form as before.
 - Microfluidics tomorrow, be in the lab for 9! (and then finish ~17, nicely in time for footy training)
+
+
+### 3/2/22
+- Microfluidics training with Dean and ?Chenyan (no Aske :( ). It can be quite difficult standing passively in that room for a few hours, but the next bit should be more interactive. It is very in-depth training (which is great) but I'm not yet sure if it really needs 2 full days!
+- Notes:
+  - SU8 is expensive (£600-1000 per 0.5L bottle)
+  - But we may as well use it because it will degrade
+  - Try and keep everything clean - always start with acetone, then eg IPA if appropriate
+  - Didn't know we can do this on a glass slide, this is of course handy but then we don't get a nice "master" from which multiple devices can be produced
+  - Laser writer levelling can be quite time-consuming, as can some of the baking steps (see the timings in the notes, when Dean sends them, which should hopefully be tomorrow)
+  - SU8 20XX series has the notation that XX stands for the micron thickness for 3000rpm spin of duration (...), or something like that
+  - Can see the 300micron "squares" which are the exposure units in the DLW, on the device, where it has been "stitched" together. In general, try to design devices so that fine structures can be contained within these. 
+  - This morning we used spin process 7, although these are subject to editing by any user; SU8 prefers a two-spin process at low and then high speeds. Make sure the vaccum is greater than 25(au), otherwise it won't allow running!
+  - First check coolant levels before opening DLW software
+  - Can use in-house software for CAD style editing, it is more basic but make sure you save stuff if you do this (esp in case need to restart the software for whatever reason)
+  - Ejecting/loading can be done either on the software or the hardware, software is probs better for logging, either way it gives a very Star-Trek vibe
