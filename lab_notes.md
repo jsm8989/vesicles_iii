@@ -98,3 +98,11 @@ A general space for writing about things in the lab. Will likely be messy.
   - First check coolant levels before opening DLW software
   - Can use in-house software for CAD style editing, it is more basic but make sure you save stuff if you do this (esp in case need to restart the software for whatever reason)
   - Ejecting/loading can be done either on the software or the hardware, software is probs better for logging, either way it gives a very Star-Trek vibe
+  - Put the coated side of the substrate face down into the DLW
+  - Don't put the spring side of the substrate holder down on a surface
+  - Go slow when pipetting/pouring photoresist to prevent bubbles; will probably need to cut pipette tip (esp for more viscous ones)
+  - Si wafers are in general better quality but much more expensive than glass slides. If we compared glass wafers and Si wafers, the Si ones are a similar price, despite being better quality, due to the electronics industry.
+  -   Better = easier to see dust, less roughness (almost atomically smooth), can produce more things in one go (obviously)
+  -   Similarities = both hard enough that cutting with razor is no problem, also defect size/overall quality both easily good enough for "microfluidics".
+- Will try join the meeting this afternoon if I am not in the middle of something
+- 
