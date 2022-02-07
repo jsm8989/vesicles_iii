@@ -105,4 +105,46 @@ A general space for writing about things in the lab. Will likely be messy.
   -   Better = easier to see dust, less roughness (almost atomically smooth), can produce more things in one go (obviously)
   -   Similarities = both hard enough that cutting with razor is no problem, also defect size/overall quality both easily good enough for "microfluidics".
 - Will try join the meeting this afternoon if I am not in the middle of something
+- [meeting cancelled]
+
+
+### 4/2/22
+- Did PDMS, bonding and testing of new device between 11-15:30. Rate-limiting step was the 2 hour bake @60 degrees C.
+- Mostly as before, with emphasis on cleaning around plasma bonding area, which I had not been too careful with previously
+- My device was slightly leaky, we are unsure why. The 100um channels were also much easier to get flow through than the smaller ones, although it turned out the tubing and hole punch did not quite work.
+I sadly also broke the plunger on the punching machine by pushing it down too fr, and this led to ~an hour delay (sorry Dean). Remember to always look perpendicular to the punching plane to avoid parallax! And the surfaces are not as hard as previous things I have punched on!!
+
+
+
+### 7/2/22
+- Did a lot of ESA electronics work yesterday, to show Nigel and co. our progress in a tangible manner.
+- Katie has ordered reagents and is in charge of testing the reaction - I am really relying on her for this
+- Wrote a simple script which could analyse sigmoidal curves by returning the gradient as a function of time, giving the initial and max rates. 
+- Also currently deciding how best to characterise the saturation time - will talk to Pietro about this
+- Plan for lab today: have booked DLW from 13:00-16:00, planning to print one of the Gennaio_attachment files that Viola sent me.
+	- Also want to compare these to other works to show it's a better idea
+	- Need to measure size (either post-production using profilometer or on software)
+	- Expect ~100um channels, of a reasonable (50um?) depth, and smaller traps. Although this may be problematic for larger vesicle samples - reduce growth phase time?
+	- For today only worth doing this on a single glass slide, as we are not yet interested in large scale production, and this may be more of a recall/test run for me
+- At some point need to return to the EVOS with Timo, who I haven't spoken to for a while. Would be good to see what kind of scripting/remote control is possible with it
+- 
+
+
+
+Tomorrow/later in the week:
+- make some new vesicles, get some confocal/Temika time, and get more data
+- continue c++ contour analysis
+- spend more time on simulation code, should really have this done soon (and "out of the way")
+
+
+
+Afternoon in the lab:
+- All the phd students seem to have covid, office will be quiet for a while :( hopefully they can still make it to the dinner on the weekend!
+- Forgot USB at home so could not smoothly transfer desired dxf from my laptop to DLW, and sadly I also could not find Viola's copy on the PC, so modified Dean's training one to include some traps. This ended up being a useful experience to get grips with the software (which is also faster than doing in on my laptop anyways).
+- Cleaned the glass slide and did the SU8 spinning as best as I could remember, but I worry I got the heating/baking bits wrong.
+-   I got a fresh slide, cleaned it with acetone and IPA, then left it at 65deg for a few mins. I then did the SU8 spin (program 7, hadn't been changed) and put the slide on at 200 for 10 mins, during which time I cleaned the spinner and turned off the vacuum etc. I also prepared the CAD during this time
+-   Preparing the CAD took a little longer than 10mins so the slide with SU8 was left in the air for a while, at least the light was off.
+-   Loaded, went through the calibration and sample prepation (which took me a few attempts but I reckon I've got the idea now), but could not "send to laser", I thought this was to do with the blocks that had been defined but eventually I found Dean who pointed out that I hadn't set the attributes (for future ref: chosoe "coarse" and set the second value to 800)
+-   It then worked fine (and btw, the DLW does not expose any blocks that are empty)
+- Now I am eating lunch and writing this. Will likely expose shortly and get the PDMS ready, then leave baking overnight? 
 - 
