@@ -127,7 +127,6 @@ I sadly also broke the plunger on the punching machine by pushing it down too fr
 	- Expect ~100um channels, of a reasonable (50um?) depth, and smaller traps. Although this may be problematic for larger vesicle samples - reduce growth phase time?
 	- For today only worth doing this on a single glass slide, as we are not yet interested in large scale production, and this may be more of a recall/test run for me
 - At some point need to return to the EVOS with Timo, who I haven't spoken to for a while. Would be good to see what kind of scripting/remote control is possible with it
-- 
 
 
 
@@ -146,5 +145,23 @@ Afternoon in the lab:
 -   Preparing the CAD took a little longer than 10mins so the slide with SU8 was left in the air for a while, at least the light was off.
 -   Loaded, went through the calibration and sample prepation (which took me a few attempts but I reckon I've got the idea now), but could not "send to laser", I thought this was to do with the blocks that had been defined but eventually I found Dean who pointed out that I hadn't set the attributes (for future ref: chosoe "coarse" and set the second value to 800)
 -   It then worked fine (and btw, the DLW does not expose any blocks that are empty)
-- Now I am eating lunch and writing this. Will likely expose shortly and get the PDMS ready, then leave baking overnight? 
-- 
+- Now I am eating lunch and writing this. Will likely develop shortly and get the PDMS ready, then leave baking overnight? 
+- Sadly the developmment did not work. I spoke to Peter while collecting a petri dish, and brought him down to show the idea of lithography/microfluidics (since he was waiting around for a while anyway). I didn't notice anything particularly unusual, but after the PGMEA dip, the IPA seemed to "congeal" the remaining photoresist off the substrate and it formed a weird substance in the dish. This continued when I tried to further develop it. My guess is that the pre-exposure baking steps did not work (which, on reflection the next day, I realised I had missed a longer water-desorption baking step after intial cleaning). 
+- Either way, this was frustrating, but would give me an opportunity to go through it all again the next day, especially now that Dean had sent me the (draft) notes.
+
+ESA meeting in the evening:
+- More productive than expected, it was good to talk through why I had made certain decisions and whether alternatives were reasonable. 
+- Progress has been made, and in theory with a good MF device and some good reaction tests from Katie we are almost good to go.
+- Annoyingly campaign dates have changed againi and are currently pencilled in for 4-6th May. 
+- Good, but mildly stressful, day (not sustainable)
+
+
+### 8/2/22
+- In the MF room at 08:30, quick clean and software ready after a good start to the morning. Was able to finish DLW exposure and clean ITO slides for electroformation pre 10am lecture. 
+- After lecture, removed exposed slide and carried out development as detailed in protocol. Maybe a glass petri dish made a difference (yesterday I used a plastic one...)?
+- Finished the final post-development bake slightly early (supposed to be 10 min at 200, I did more like 7.5 as I had overrun my booking slot slightly).
+- Poured PDMS as in protocol, put in oven and ended up leaving it there for 2.5 hrs over lunch and QI lecture (should idaelly have been 2hrs but I don't think it is too important here). 
+- Also did some electroformation during this time, ready by 15:10, with Roger wanting to do it after
+- Cut and bonded new chip post-lecture and now writing this. On inspection it seems to have worked well; I don't have any tubing with me (or a huge amount of energy) and so will see whether I can trap the vesicles tomorrow morning, especially as the fluorescent Nikon is more available at that time. 
+- NB when punching holes, I planned to use the mechanical device, but could not find the alan key needed to lower it towards the stage. Some of these logistic things would be nice to have in the drawers of the respective rooms.
+- NBB left labcoat on hanger in Biochemistry lab when walking to waiting area, and will likely leave it there overnight. 
