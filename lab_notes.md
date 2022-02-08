@@ -1,4 +1,4 @@
-A general space for writing about things in the lab. Will likely be messy. Some abbreviations: MF = microfluidic, BF = bright field
+A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field
 
 ### 24/1/22
 - Made vesicle sample to get back into it after the new year. Forgot to check which side of ITO conductive so dessicated the wrong side for an hour; decided the sample was not a particularly important one anyway and so smeared the other side and kept going. Convenient as only suitable confocal time is this afternoon and I want to go over it with Guil again.
