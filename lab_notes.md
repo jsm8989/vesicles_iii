@@ -165,3 +165,19 @@ ESA meeting in the evening:
 - Cut and bonded new chip post-lecture and now writing this. On inspection it seems to have worked well; I don't have any tubing with me (or a huge amount of energy) and so will see whether I can trap the vesicles tomorrow morning, especially as the fluorescent Nikon is more available at that time. 
 - NB when punching holes, I planned to use the mechanical device, but could not find the alan key needed to lower it towards the stage. Some of these logistic things would be nice to have in the drawers of the respective rooms.
 - NBB left labcoat on hanger in Biochemistry lab when walking to waiting area, and will likely leave it there overnight. 
+
+
+### 9/2/22
+- Tested out new MF device using microscope in MF room. Worked well from a fluid flow point of view. Some of the trap squares have not come out quite right, but I realise that I should try passivating this structure before passing liquid through it as I am getting the same problems with the surface tension as in the last desing. Should also try make Vioa's design with the curved traps to see if that makes any difference.
+- Tried to image vesicles in same scope but couldn't see anything (either the recently made ones or those from 2 weeks ago)
+
+
+### 10/2/22
+- Got in early on the Nikon microscope, I should still write up those notes as I spent a lot of time messing around with the hardware side of the illumination settings. Also I have yet to see a fluorescent signal for vesicles by myself - either this is a vesicles issue or an issue with my usage of the microscope
+- To be fair, I could not clearly see vesicles in BF. I initally tried in a simple well (although without glucose) but I really think that cleaning the bottom of the glass slide or similar would be a good thing before next imaging attempt.
+- I then viewed the MF channels, which at least gave me something to aim for, and they were easy to image (although still couldn't remove diffraction effects - see test images)
+- I tried to inject some vesicles into the channels but this did not work from an imaging point of view (also directly from the syringe is perhaps not useful as may widen the inlet, and also seemed to give many bubbles, although this may also have been to do with the fact that there was stuf fin there from before. Need to work out best way to "clean" it)
+- I also (still) do not seem to be able to control the z drive/focus by any means other than the actual buttons on the scope. 
+- May try print new chip tomorrow, since the training lot will be mostly in the mechanics lab (although will maybe check this with Dean first)
+- Also, tomorrow is Mattia's last day!
+- NLO supo shortly (fisrt one of term)
