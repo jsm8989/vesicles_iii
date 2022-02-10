@@ -179,5 +179,6 @@ ESA meeting in the evening:
 - I tried to inject some vesicles into the channels but this did not work from an imaging point of view (also directly from the syringe is perhaps not useful as may widen the inlet, and also seemed to give many bubbles, although this may also have been to do with the fact that there was stuf fin there from before. Need to work out best way to "clean" it)
 - I also (still) do not seem to be able to control the z drive/focus by any means other than the actual buttons on the scope. 
 - May try print new chip tomorrow, since the training lot will be mostly in the mechanics lab (although will maybe check this with Dean first)
+- Also checked other computer and remembered that I forgot the capitals when setting my pw for it, tried to change it but the pw is too simple. Either way would be interesting to use the optical tweezers at some point (mainly for my own experience and interest, would be cool to see what they can do). It seems temika works in exactly the same way as on the Nikon computer.
 - Also, tomorrow is Mattia's last day!
 - NLO supo shortly (fisrt one of term)
