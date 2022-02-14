@@ -182,3 +182,9 @@ ESA meeting in the evening:
 - Also checked other computer and remembered that I forgot the capitals when setting my pw for it, tried to change it but the pw is too simple. Either way would be interesting to use the optical tweezers at some point (mainly for my own experience and interest, would be cool to see what they can do). It seems temika works in exactly the same way as on the Nikon computer.
 - Also, tomorrow is Mattia's last day!
 - NLO supo shortly (fisrt one of term)
+
+
+### 11/2/22
+- Continued coding, kept getting memory allocation issues and hence "segmentation fault (core dumped)"
+- Found the source of the errors but not entirely sure what to do about it - given that this part of the code just needs to generate a text file with the initial contour, I could possibly do it a different way (eg in python) and then just `track_movie` with the movie file and the initial contour
+- Left early (~14:30) to go and watch Lucien Hardy's QI seminar, then continued coding at home with Kieran but did not manage to pass any significant milestones
