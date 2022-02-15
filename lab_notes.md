@@ -191,4 +191,4 @@ ESA meeting in the evening:
 
 
 ### 14/2/22
-![Handwritten lab notes for this day](figures/lab_notes_14_feb.jpg "Text to show on mouseover")
+![Handwritten lab notes for this day](images/lab_notes_14_feb.jpg "Text to show on mouseover")
