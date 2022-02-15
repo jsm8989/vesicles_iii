@@ -1,5 +1,22 @@
 A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field
 
+### 1/11/21
+- Had short meeting with Pietro
+- Pipetted 5uL of Texas Red of unknown concentration (due to evaporation) into remaining DOPC/Chloroform solution 
+- Precision not needed here yet
+- It turns out there was no remaining solution…
+- Added 171uL of DOPC at 25mgmL (from freezer 04), although lost one drop while pipetting, into the same “jar” containing the new TR
+- Added 892uL of chloroform (inside the foom hood) to it, vortexed, proceeded as usual. Will be interesting to see what the fluoro looks like (on pipetting, it does not look very pink…)
+- Usual dessicator isn’t free! Used greasy one on top shelf.
+Done for today; to do at some point:
+- Get on the github, review project meeting just now
+- Make up sucrose/glucose
+- Get on the Nikons
+- Pester Morten (DLW is a mess)
+- Order TR, DOPC? For the more precise stuff
+- Clean up my old stuff, review notes, set up lab notebook
+
+
 ### 14/12/21
 - For the past week (since 6/12) I have been in the office every afternoon, working on simulations and analysis software and reading some good papers which I hadn’t come across before
 - Today, obtained CAD files from viola (which are on the DLW computer anyway). These chips are to trap RBCs so would need scaling up for vesicles. This may save significant time and/or the need to contact other researchers with similar designs (which will inevitably be much slower)
