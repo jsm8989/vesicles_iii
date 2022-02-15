@@ -1,5 +1,34 @@
 A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field
 
+### 14/12/21
+- For the past week (since 6/12) I have been in the office every afternoon, working on simulations and analysis software and reading some good papers which I hadn’t come across before
+- Today, obtained CAD files from viola (which are on the DLW computer anyway). These chips are to trap RBCs so would need scaling up for vesicles. This may save significant time and/or the need to contact other researchers with similar designs (which will inevitably be much slower)
+- Another possibility for immobilisng vesicles is the surface biotin-avidin treatment - worth looking into if microfluidic trapping remains unavailable/obtainable, this can probably be done in a very simple serpentine channel with the required number of in/outlets
+- Viola mentioned the need to passivate the channel before flushing other stuff down to avoid this annoying surface tension effects, even then I’m not sure how useful “my design” is. 
+- I spent a while trying to find BSA, and not many people knew; Michal was able to help me with some crystals, so I made up a 1% BSA solution in DI water, although noted after that people also make it up in eg PBS or other neutral buffers. Turns out BSA solution is very foamy… unless I did something wrong
+- I used this to try to passivate my old chip, but perhaps it was already too dirty for this to be successful, also the flow of fluids is still sub-optimal. Maybe should split up the channels going into the main array region as in Viola’s/Emma’s recent design
+- Also tried to passivate other chips including serpentine channels, but these clearly had not been very well bonded/inlet holes punched too large/other related problems, which was frustrating
+- So I cut some new ones (one inlet/outlet each, from a previous PDMS pour I had) and bonded them onto the same slide after cleaning the slide and PDMS surfaces with IPA. Sadly, the bonding did not work, despite using the same procedure as always (I don’t think anyone had changed the power setting but I’m not entirely sure what it is usually set on).
+- This could be linked to the discussion overheard by Anna a few weeks ago regarding replacing the plasma bonder
+Thoughts:
+- Shame not to have done more chip experimentation last week, I did not think to ask around beyond Morten, who was the designated microfluidics person and was ill, hence I stayed in Cambridge an extra few days (planning to leave tomorrow)
+- Quite tired now and even though end of term has been quite relaxed, I didn’t make as much project progress (at least not ESA wise) as I hoped
+- Currently planning to return on the 10th of January, apparently by then a new microfluidics expert is joining the (group? Department? building?). Maybe I should come back a few days earlier to try hard to get this working prototype ready for 21st Jan (as requested by ESA).
+- Exams ahh! 
+Questions:
+- What to do with old PDMS?
+- How best to passivate and clean microfluidic channels?
+- Is it worth emailing authors of vesicle-trapping papers to see if they can send any resources? (NB: check SI of good papers)
+Other plans for holiday:
+- Ensure lab notes are compiled and nicely documented (although not too nice)
+- Continue to read papers in detail, alongside revision
+- Get fluctuation analysis set up
+- Get simulation software done
+- Try to simulate microfluidic geometries
+- Sort arduino syringe pump control
+
+
+
 ### 24/1/22
 - Made vesicle sample to get back into it after the new year. Forgot to check which side of ITO conductive so dessicated the wrong side for an hour; decided the sample was not a particularly important one anyway and so smeared the other side and kept going. Convenient as only suitable confocal time is this afternoon and I want to go over it with Guil again.
 - Have booked confocal 15:00-17:00, will make some notes on key things to do/look out for, hoping for good fluorescence but not necessarily getting data today (also need to check vesicle floppiness - get this from Guil's notes when we did this before)
