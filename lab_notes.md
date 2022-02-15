@@ -1,7 +1,7 @@
-A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field
+A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field. Notes from Michaelmas were much less frequent.
 
-### 1/11/21
-- Had short meeting with Pietro
+### 27/10/21
+- Had initial meeting with Pietro and Guil
 - Pipetted 5uL of Texas Red of unknown concentration (due to evaporation) into remaining DOPC/Chloroform solution 
 - Precision not needed here yet
 - It turns out there was no remaining solution…
@@ -15,6 +15,10 @@ Done for today; to do at some point:
 - Pester Morten (DLW is a mess)
 - Order TR, DOPC? For the more precise stuff
 - Clean up my old stuff, review notes, set up lab notebook
+
+### 1/11/21
+- Microscope training with Jurij
+- See BF_imaging protocol for notes
 
 
 ### 14/12/21
