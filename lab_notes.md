@@ -271,9 +271,11 @@ ESA meeting in the evening:
 - Set up, modified and tested python scripts locally in order to generate an initial contour txt file; there are multiple examples of plotting contours which work so this should not be too hard, also much easier to work with both locally (at home) and at the office
 - Spoke to Roger about locating DOPC and TR, these can both be found in Rini's box at the bottom of the freezer
 - Made some (non-fluoro) vesicles with new sucrose solution made yesterday, cleaned vessel for making a new fluorescent lipid solution - Roger pointed out that the excat ratios are important for this work and that it would not be sensible to just add an arbitrary amount of TR into my (depleted) older lipid mixture
+- Started playing around with lif files on ImageJ as I realie this is a whole different step to the movie file analysis which I been spending significant time on
 - Tomorrow: 
 - 	Make up lipid mixture
 - 	Image this set of vesicles
 - 	Make up BSA solution using Michal's stock
 - 	Passivate MF
 - 	Bring in electronics to discuss with Shash
+- 	Ask Guil if he has any routines for analysing lif files
