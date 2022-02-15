@@ -20,6 +20,28 @@ Done for today; to do at some point:
 - Microscope training with Jurij
 - See BF_imaging protocol for notes
 
+### 11/11/21
+Chat with Guil about software he could send me, and how it works 
+- Can add contours on movie files in either c++ (cpp-contour-tracker/track_movie.cpp) or python (moviereader/contour_tracker.py)
+- Used to need a starting contour (which Guil has own temika script for - this is what generated that nice .txt file in his great example dataset), but should be able to get started by specifying own centre and first_point on the boundary
+- In the c++ version the relevant part is around line 96; might be able to avoid some of the bs before by just inputting the right thing at the right time
+- Can go through it together next week if struggling
+- In the python version (probably in c++ too) the combo_tracker function should be able to track the vesicle as it moves throughout the movie file (essentially recentering it)
+- Once have the contours, extracting the parameters should be easy
+- Maybe go over some C++!
+
+### 9/12/21
+Chat with Guil about simulating the fluctuations
+- First
+- 	Can get shapes either by putting them in or by inputting tension, bending modulus etc
+- 	Currently no time evolution - should be easy enough to put in through Langevin
+- 	Inverse FT, superposing modes q>=2, 
+- Optics - more mature
+- 	Black box in extracting contours through the optics
+- In guil’s (local) dirs: 
+- 	Bead_optics/
+- 	Battle_of_fitters/make_fake_cell_lib.py
+
 
 ### 14/12/21
 - For the past week (since 6/12) I have been in the office every afternoon, working on simulations and analysis software and reading some good papers which I hadn’t come across before
@@ -242,3 +264,16 @@ ESA meeting in the evening:
 
 ### 14/2/22
 ![Handwritten lab notes for this day](images/lab_notes_14_feb.jpg "Text to show on mouseover")
+
+
+### 15/2/22
+- Big tidy up of my digital records, have migrated all notes from the drive to Github
+- Set up, modified and tested python scripts locally in order to generate an initial contour txt file; there are multiple examples of plotting contours which work so this should not be too hard, also much easier to work with both locally (at home) and at the office
+- Spoke to Roger about locating DOPC and TR, these can both be found in Rini's box at the bottom of the freezer
+- Made some (non-fluoro) vesicles with new sucrose solution made yesterday, cleaned vessel for making a new fluorescent lipid solution - Roger pointed out that the excat ratios are important for this work and that it would not be sensible to just add an arbitrary amount of TR into my (depleted) older lipid mixture
+- Tomorrow: 
+- 	Make up lipid mixture
+- 	Image this set of vesicles
+- 	Make up BSA solution using Michal's stock
+- 	Passivate MF
+- 	Bring in electronics to discuss with Shash
