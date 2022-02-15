@@ -188,3 +188,7 @@ ESA meeting in the evening:
 - Continued coding, kept getting memory allocation issues and hence "segmentation fault (core dumped)"
 - Found the source of the errors but not entirely sure what to do about it - given that this part of the code just needs to generate a text file with the initial contour, I could possibly do it a different way (eg in python) and then just `track_movie` with the movie file and the initial contour
 - Left early (~14:30) to go and watch Lucien Hardy's QI seminar, then continued coding at home with Kieran but did not manage to pass any significant milestones
+
+
+### 14/2/22
+![Handwritten lab notes for this day](figures/lab_notes_14_feb.jpg "Text to show on mouseover")
