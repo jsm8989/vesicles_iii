@@ -309,3 +309,8 @@ ESA meeting in the evening:
 - Have also booked confocal but unless I get some nice floppy ones there's not much point (no reason I can't just persevere for floppy ones though)
 - lots of brownian motion, fission products visible, good to know the fluoresence has worked
 - NB on the EF today there were in the growth stage for 2h20 rather than the usual 2h, as the timings didn't quite work out with my lecture
+
+
+- tbh the 1:9 ratio is still too densely packed for clear, individual imaging
+- some were more floppy - have tried to give clear temika names to the files 
+- definitely worth having a look through them and seeing if we can run any contour analysis
