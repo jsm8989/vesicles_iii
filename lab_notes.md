@@ -314,3 +314,4 @@ ESA meeting in the evening:
 - tbh the 1:9 ratio is still too densely packed for clear, individual imaging
 - some were more floppy - have tried to give clear temika names to the files 
 - definitely worth having a look through them and seeing if we can run any contour analysis
+- also 40x objective seems like a good default, need to play around with camera mode each time (incl diff between fluoro and BF) but this will become more intuitive
