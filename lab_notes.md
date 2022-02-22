@@ -292,3 +292,9 @@ ESA meeting in the evening:
 - Success in terms of remote connection from Nikon computers: you can run `ssh jsm89@sf1.bss.phy.private.cam.ac.uk` and get straight into the Z:/jsm89 directory
 - Could create a local bash script which copies all movie files from a given date (eg using `scp *16Feb2022* jsm89@sf1.bss.phy.private.cam.ac.uk:~/data_remote/`) 
 - Note the bigger files take a while, as expected!
+
+
+### 21/2/22
+- Made up fluorescent lipid solution and prepared slides for electroforming tomorrow
+- Will try image on Nikon and maybe confocal if its free
+- Get solution ratios from Guil! (I seem to remember 300/400mM being ok, but hasn't appeared so recently)
