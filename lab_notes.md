@@ -298,3 +298,12 @@ ESA meeting in the evening:
 - Made up fluorescent lipid solution and prepared slides for electroforming tomorrow
 - Will try image on Nikon and maybe confocal if its free
 - Get solution ratios from Guil! (I seem to remember 300/400mM being ok, but hasn't appeared so recently)
+
+
+### 22/2/22
+- nice palindrome date!
+- made new glucose solution at 400mM
+- successful fluoro (and BF) imaging of vesicles made with 300mM sucrose, put in imaging vessel with 1:9 ratio initially
+- most of them were quite taught so I added 30uL of DI water to try and match the osmolarities slightly better (in the paper they used 197/200 sucrose/glucose, also in 1:9 imaging ratio)
+- Nice to see the re-equilibration on adding the water
+- Have also booked confocal but unless I get some nice floppy ones there's not much point (no reason I can't just persevere for floppy ones though)
