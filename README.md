@@ -20,3 +20,4 @@
 - Add handwritten notes where appropriate, add more figures to lab notes
 - Perhaps get the first contour of the movie file from python as this is currently the bottleneck
 - make the `fit_results.txt` output of `analyze_all.py` much nicer to read!
+- transfer data over from Aske's computer (in Documents/Data wipe)
