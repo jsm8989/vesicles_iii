@@ -4,7 +4,7 @@
 - Sample data
 - Useful scripts (mostly python) for simulation, interfacing with temika, ImageJ(?), and extracting bending modulus from movie files
 
-### TODO (24/1)
+### TODO (23/2)
 - (ALMOST DONE) Get flickering analysis to work for my data in user-friendly way
 - Contribute to section 4.1 of Temika guide
 - Modify Guil's simulation dynamics for RBCs
