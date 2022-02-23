@@ -315,3 +315,19 @@ ESA meeting in the evening:
 - some were more floppy - have tried to give clear temika names to the files 
 - definitely worth having a look through them and seeing if we can run any contour analysis
 - also 40x objective seems like a good default, need to play around with camera mode each time (incl diff between fluoro and BF) but this will become more intuitive
+
+
+### 23/2/22
+Rough notes made while setting up new desktop environment in the office. Don't know why I didn't do this earlier... much nicer to work with than my laptop!
+- It works! I compiled track_movie and it actually tracked something...
+- Although it didn't seem to do the ending output I was expecting, and hasn't actually given me anything (isn't this where the text file is supposed to come from?)
+- Update: it looks like it has updated the contour text file... maybe should compare this one to the previous one!
+- Although it, and the movie it took as input, were in the directory above it; worth noting (probably to do with how I copied the file into the argument of the .exe)
+- The two files are defo not identical, as one contained way more lines than the other. Not sure why, or how important this is...
+- Got python files to run too and can now analyze_all for all movie files, with associated contour files, in a specified directory (basically as Guil had it - still need to initialise new contours to get those txt files!). Analysis working smoothly, will have to double check what kind of data we want for all of that.
+- On local desktop VSCode setup I am gonna diverge from the likely git branch, since it works differently to how I expect from Linux, and reduce the number of files needed to clean it up. Can always upload to a separate git branch later.
+- all the fns in have moved into `contour_fitter.py`
+- have updated central repo README with new tasks
+
+Also
+- Spoke to Guil who provided me with the following extract from his lab book:
