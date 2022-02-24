@@ -330,4 +330,7 @@ Rough notes made while setting up new desktop environment in the office. Don't k
 - have updated central repo README with new tasks
 
 Also
-- Spoke to Guil who provided me with the following extract from his lab book:
+- Spoke to Guil who provided me with the following extract from his lab book dated june 23rd 2021:
+	- Imaged just after preparing. 10uL of 20mM sucrose vesicles + 210uL of 22mM glucose. Added glucose to chamber, then added vesicles to chamber, rather than pre-mixing. 
+	- Floppiness and concentration were "perfect"
+	- Same day we did 305mM glucose and 300mM sucrose, in same ratio. All extremely taut
