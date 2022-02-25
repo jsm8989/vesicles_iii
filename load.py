@@ -1,41 +1,31 @@
 import sys
-sys.path.append("python-temika-reader")
-sys.path.append("contour_analyzer")
-sys.path.append("moviereader")
+sys.path.append("../python-temika-reader")
+sys.path.append("../contour_analyzer")
+sys.path.append("../moviereader")
+sys.path.append("Z:\data_remote")
 
-from read_cpp_contour import load_contour_cpp # in contour_analyzer
+from contour_fitter import load_contour_cpp # in contour_analyzer
 from pytmk import Movie # in python-temika-reader
 import matplotlib.pyplot as plt
 from PIL import Image
 import contour_tracker # in moviereader
 import numpy as np
 
-m = Movie("well_C5_cell_0000.movie") # test data in any directory
 
-# print(m.n_frames)
+m = Movie("../well_C5_cell_0000.movie") # test data
 
-frame = m.get_frame(10)
+print("There are {} frames in this movie".format(m.n_frames))
+
+frame = m.get_frame(10) # arbitrary frame choice
 shape = np.shape(frame)
-print(shape)
+#print(shape)
 
 img = Image.fromarray(frame)
 
-img.show()
+img.show() # image without contour
 
 
-# # from plot_contour.py:
-# #Define a function to plot the full contour over the image
-# def plot_contour(i):
-        # plt.imshow(m.get_frame(i))
-        # if c[i][1] is not None:
-                # plt.plot(*c[i][1].T, c = 'r')
-# 
-# 
-# 
-# #As an example, plot the 10th frame and contour together
-# plot_contour(10)
-# 
-# plt.show()
+
 
 
 
