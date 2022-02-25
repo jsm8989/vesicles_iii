@@ -346,4 +346,5 @@ Will aim to meet at least weekly for the next few weeks
 ### 25/2/22
 - Finished biochemistry rota for the week, on it again next week (then likely never again)
 - Made 20mM sucrose and 22mM glucose solutions from my stock for floppy vesicles next week
-- 
+- Smeared lipids on slide for dessication over the weekend, ready to EF on monday
+- Got Will to enable remote access to office desktop (PC1) but sadly it didn't seem to work from my laptop (some kind fo kerbolos authentication issue...). Will have to survive without the new setup for the weekend (which will mostly be reading and lecture work anyway!)
