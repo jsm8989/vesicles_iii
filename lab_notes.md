@@ -334,3 +334,16 @@ Also
 	- Imaged just after preparing. 10uL of 20mM sucrose vesicles + 210uL of 22mM glucose. Added glucose to chamber, then added vesicles to chamber, rather than pre-mixing. 
 	- Floppiness and concentration were "perfect"
 	- Same day we did 305mM glucose and 300mM sucrose, in same ratio. All extremely taut
+
+
+### 24/2/22
+Coding day, meeting with Pietro in the afternoon, after Rayleigh library book giveaway at 11am. See handwritten notes, Pietro meeting was very useful. 
+Will aim to meet at least weekly for the next few weeks
+![Pietro meeting 1](images/16457896175288136800017126300239.jpg "Text")
+![Pietro meeting 2](images/16457896414346541402660351332016.jpg "Text")
+![Pietro meeting 3](images/1645789655104821810061106393033.jpg "Text")
+
+### 25/2/22
+- Finished biochemistry rota for the week, on it again next week (then likely never again)
+- Made 20mM sucrose and 22mM glucose solutions from my stock for floppy vesicles next week
+- 
