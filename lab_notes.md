@@ -348,3 +348,10 @@ Will aim to meet at least weekly for the next few weeks
 - Made 20mM sucrose and 22mM glucose solutions from my stock for floppy vesicles next week
 - Smeared lipids on slide for dessication over the weekend, ready to EF on monday
 - Got Will to enable remote access to office desktop (PC1) but sadly it didn't seem to work from my laptop (some kind fo kerbolos authentication issue...). Will have to survive without the new setup for the weekend (which will mostly be reading and lecture work anyway!)
+
+### 26/2/22
+- EF of new, hopefully floppier vesicles
+- sadly no microscopes were free so gonna come back tomorrow morning for get them on the confocal, trying a different laser.
+- See Pietro's images!
+- Also managed to get remote connection to PC1 over the weekend
+- Quite tired, did some QS and QI, and watched the office handstand session!
