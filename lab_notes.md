@@ -349,9 +349,21 @@ Will aim to meet at least weekly for the next few weeks
 - Smeared lipids on slide for dessication over the weekend, ready to EF on monday
 - Got Will to enable remote access to office desktop (PC1) but sadly it didn't seem to work from my laptop (some kind fo kerbolos authentication issue...). Will have to survive without the new setup for the weekend (which will mostly be reading and lecture work anyway!)
 
-### 26/2/22
+### 28/2/22
 - EF of new, hopefully floppier vesicles
 - sadly no microscopes were free so gonna come back tomorrow morning for get them on the confocal, trying a different laser.
 - See Pietro's images!
 - Also managed to get remote connection to PC1 over the weekend
 - Quite tired, did some QS and QI, and watched the office handstand session!
+
+### 1/3/22
+- Big confocal morning, from 8:30-12:30 with an hour break for a lecture
+- Defo feel more confident about it now; got much clearer images and the new vesicles from yesterday were good
+- Auto gain is useful
+- Tried different lasers (633 and 594), didn't seem to have a huge impact
+- Tried HyD detector which gave the blue Pietro had, generally less noisy and easier to control too (took some images with both that and PMT active)
+- Haven't worked out how to add BF channel at the same time (which I should be able to get "for free")
+- Also noticed that zooming was useful in taking these images, as long as the vesicles are sufficiently stationary. Did then give the impression that they were much larger than they actually were though
+- Need to get flickering analysis ready to go, then get a time where I can image on Leica and BF on the same day. Or get Guil etc to change the camera around for me
+- See notes from Pietro meeting for what kind of data I should get (and label it as clearly as possible, at least write in here what happened on each day)
+- Also plasma bonded a multi well onto a coverslip for more imaging opps
