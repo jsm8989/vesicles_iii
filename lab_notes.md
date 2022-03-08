@@ -377,3 +377,11 @@ Presentation with other part IIIs and part IIs, see Pietro feedback (TODO)
 Finally noting down the fluorescence settings that work (not sure why I haven't before)
 ![image](https://user-images.githubusercontent.com/69422343/157300061-033df188-ee93-4bfa-a380-5a03890d53e2.png)
 (see screenshot of temika settings)
+Made a few wells. 22mM glucose volume:
+- 150
+- 30
+- 20
+Currently imaging 2uL of vesicles in the 30uL glucose - far too dense (and maybe why the image was initially so saturated)
+Some very nice floppy vesicles though, would be great to have these on all scopes
+Objective: 40x (light blue)
+Filter cube 6 (can be seen on microscope view)
