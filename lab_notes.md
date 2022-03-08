@@ -367,3 +367,13 @@ Will aim to meet at least weekly for the next few weeks
 - Need to get flickering analysis ready to go, then get a time where I can image on Leica and BF on the same day. Or get Guil etc to change the camera around for me
 - See notes from Pietro meeting for what kind of data I should get (and label it as clearly as possible, at least write in here what happened on each day)
 - Also plasma bonded a multi well onto a coverslip for more imaging opps
+
+
+
+### 7/3/22
+Presentation with other part IIIs and part IIs, see Pietro feedback (TODO)
+
+### 8/3/22
+Finally noting down the fluorescence settings that work (not sure why I haven't before)
+![image](https://user-images.githubusercontent.com/69422343/157300061-033df188-ee93-4bfa-a380-5a03890d53e2.png)
+(see screenshot of temika settings)
