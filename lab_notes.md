@@ -384,4 +384,25 @@ Made a few wells. 22mM glucose volume:
 Currently imaging 2uL of vesicles in the 30uL glucose - far too dense (and maybe why the image was initially so saturated)
 Some very nice floppy vesicles though, would be great to have these on all scopes
 Objective: 40x (light blue)
-Filter cube 6 (can be seen on microscope view)
+Filter cube 6 (can be seen on microscope view) ---- Emma came in and had booked that scope (Have I got the tweezers wrong this whole time?). She
+said that it's a nightmare to change all the settings between different optical modes, although you can just script it (Temika XML stuff). Also that
+the fluorescence on the Nikon I had been using was considered dodgy recently, and that the other Nikon might be a better shout for measurements...
+
+Either way took some images of good floppiness I think! Sadly it was very difficult to image the same stuff again on confocal...
+
+Some thoughts on doing this:
+- make the sample much more dilute, then there are fewer vesicles to choose  between
+- Choose one near a certain corner of the sampling region (ie PDMS boundary) and bring the specimen in the same orientation to the next scope
+- Shouldn't necessarily need a lot of time if the sample is good in the first place (and I don't spend ages faffing about with camera/illumination settings)
+
+
+Other problems today:
+- Wayyyy too dense (this was 2uL of vesicles in 30uL of glucose...)
+- This naturally affects the physics - can't be having that
+- The sample was super buddy today, nearly every large vesicle was crowded with shredded material on the inside, seemed like hence there were not that many floppy ones
+- How exactly will data analysis on a z-stack work? If you are taking, say, 5 stacks in one series, are they one after another? (can test this). Then, do you have to skip to every 5th frame when doing a time-domain analysis of a particular z-height?
+
+Good things:
+- got lucky with using Roger's booked confocal time, tomorrow I could get the Nikon before ~11am and use Roger's afternoon confocal slot (but also have QI supo at 1600)
+- Did get a nice variety of floppy stuff, really need to think about how to (a) record what I've taken and (b) how to proceed with analysing it asap (to see whether or not it is good enough)
+- Really might be a good idea to get Pietro in here with me!
