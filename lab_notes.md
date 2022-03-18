@@ -406,3 +406,38 @@ Good things:
 - got lucky with using Roger's booked confocal time, tomorrow I could get the Nikon before ~11am and use Roger's afternoon confocal slot (but also have QI supo at 1600)
 - Did get a nice variety of floppy stuff, really need to think about how to (a) record what I've taken and (b) how to proceed with analysing it asap (to see whether or not it is good enough)
 - Really might be a good idea to get Pietro in here with me!
+
+
+### 14/3/22 TODO
+Olympus training with Chris Storey, + Pietro and Jack.
+See pictures
+Managed to image my vesicles but didn't take any meaningful data
+
+
+### 18/3/22
+Have missed doing these for a while, due to somewhat losing motivation/elevated stress towards the end of term.
+Things to catch up on (notes wise): 
+- Broke my PDMS splitter which is of course relevant to the EF process. Roger had a spare (but I did one run using a much thinner one which was just annoying when trying to retrieve the sample, and of course changes the sucrose levels in the vesicles too)
+- Had a few good confocal days last week, need to analyse that data this week
+- Still need to just initialise the contour and stop putting it off. After that the data analysis can run smoothly
+
+Today:
+- Came in around 12 from Brighton, via dos meeting
+- Tried out the new Olympus. In general it is very intuitive and nice to use. 
+- Issues:
+	- Epi laser didn't seem to work again (as in the training). Not sure which one it is. Is there a HeNe that I missed?
+	- Software didn't want to respond the first few times so had to restart the computer
+	- BSS windows login doesn't work, so have to use msjf3 (see back of paper in green folder)
+	- My hastily-made PDMS imaging well seems to clump the vesicles annoyingly in the edges/corners with some weird bubble structures. This also happened in the training on monday. Will likely have to make a better new one. 
+	- Olympus still not connected to network so have to transfer data via hardware (and for some reason my USB is not recognised by PC1)
+- After Olympus finally worked (confocal is nice, very tunable, more intuitive than leica) I had a sunny lunch walk
+- Reading afternoon - found a nice recent paper on simulating RBC flucs (CGMD - Appshaw 2022) which lead me to try and get started with LAMMPS, but I realised reasonably quickly this was a deep rabbit hole. The paper cites some nice theory ones from Fu and Yuan. I've left those tabs opened and should maybe get them cited in my working report. 
+- Went through Dimova 2020 paper again in detail (first time doing so in a while). They seem to have managed imaging single vesicles in both confocal and BF, and found no difference between them ("unlike as claimed by Rautu", which I don't quite understand, since I don't think Rautu claimed that). What they do, is talk about optical projections over a finite focal depth, but seem to dismiss it as the cause for measurement offset in fluctuation analysis. They seem to put it down to the effects of dyes, solutions, bleaching and other things. They do, which I find quite ncie, investigate a wide ranget of things, however I'm not entirely sure what their conclusions are as it seems they were almost out to disprove the findings of the Rautu paper. 
+- Tried to access Brochard and Lennon 1975 paper pioneering the idea of fluctuation spectroscopy, but it is behind a paywall. 
+- Found out that the behind modulus decreases rapidly near a phase transition. There is a lot of nice physics in GUVs!
+- The 2002 paper by Hendriksen and Ipsen also seems relevant when considering gravity (although not entirely related to ESA work) but they also introduce a "correction factor" for the higher kappa in fluctuation analysis, stating that it is due to the lack of stretching in FS compared to other, mechanical methods. (taken from Dimova's 2014 review on how kappa are measured). 
+
+Next week:
+- Write some stuff over the weekend
+- Initialise teh contours so data can be continuously analysed
+- Work out what data would be good to take and take it! Haven't got much time left
