@@ -452,3 +452,4 @@ Next week:
 - Might have to redo with less vesicles
 - BUT seems like today I could image across a bunch of microscopes, since the olympus is not very booked
 - Would really be good to have some data analysis today as I'm not sure (a) how long to take movies for, (b) if the camera settings are good enough, (c) what kind of metadata to collect...
+- NB this was all on 20x 0.75 objective
