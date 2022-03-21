@@ -441,3 +441,14 @@ Next week:
 - Write some stuff over the weekend
 - Initialise teh contours so data can be continuously analysed
 - Work out what data would be good to take and take it! Haven't got much time left
+
+
+
+### 21/3/22
+- Started EF at 8am. During EF continued with sofware issues. Still not sure exactly where the contour is initialised. Will talk to Guil this afternoon
+- Nikon free for most of the day
+- Created new double well 
+- Imaged 2uL of vesicles in 40uL of glucose (4uL vesicles in "shorter" well, as I felt an urge to add more for some reason, but this did not pay off)
+- Might have to redo with less vesicles
+- BUT seems like today I could image across a bunch of microscopes, since the olympus is not very booked
+- Would really be good to have some data analysis today as I'm not sure (a) how long to take movies for, (b) if the camera settings are good enough, (c) what kind of metadata to collect...
