@@ -8,16 +8,21 @@
 - (ALMOST DONE) Get flickering analysis to work for my data in user-friendly way
 - Contribute to section 4.1 of Temika guide
 - Modify Guil's simulation dynamics for RBCs
-- Start writing report/paper outline
+- DONE Start writing report/paper outline
 - DONE Collect/write up relevant protocols so I don't forget them (also eg confocal user guide)
 - DONE Find good way of uploading handwritten notes to here
 
-- Send Pietro images to check on the right track (when getting good ones - can check older stuff) (27/1)
+- DONE Send Pietro images to check on the right track (when getting good ones - can check older stuff) (27/1)
 - Get more comfortable with ImageJ
 - DONE Speak to rutherford hub about claiming refunds (see Katie's last attempt a while ago) 
 - DONE Write up temika/BF microscope usage protocol and things to look out for (see handwritten notes from initial meeting with Jurij)
 
 - Add handwritten notes where appropriate, add more figures to lab notes
 - Perhaps get the first contour of the movie file from python as this is currently the bottleneck
-- make the `fit_results.txt` output of `analyze_all.py` much nicer to read!
-- transfer data over from Aske's computer (in Documents/Data wipe)
+- DONE make the `fit_results.txt` output of `analyze_all.py` much nicer to read!
+- DONE transfer data over from Aske's computer (in Documents/Data wipe)
+
+
+- Analyse the data we have before trying to take new stuff
+- Coming in early should really help getting the data easily enough (with a good sample)
+- Continue writing
