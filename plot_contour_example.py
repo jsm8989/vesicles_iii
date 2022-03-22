@@ -17,6 +17,11 @@ def plot_contour(i):
 	if c[i][1] is not None:
 		plt.plot(*c[i][1].T, c = 'r')
 
+def plot_power_spectrum():
+	"""
+	
+	"""
+	
 
 
 # eg 10th frame and contour 

@@ -29,7 +29,7 @@ img.show() # image without contour
 
 
 
-# think of good way to get center, first point (+ what do they mean?)
+# think of good way to get center, first point 
 first_point = [61,114] # for the example vesicle image
 center = [0.5*shape[0],0.5*shape[1]] # should work generally for any image centred on the vesicle
 contour1 = contour_tracker.get_contour(frame, first_point, center, verbose = True)

@@ -413,6 +413,11 @@ Olympus training with Chris Storey, + Pietro and Jack.
 See pictures
 Managed to image my vesicles but didn't take any meaningful data
 
+![Olympus1](\images\20220315_120817.jpg)
+![Olympus2](\images\20220315_120822.jpg)
+![Olympus3](\images\20220315_120826.jpg)
+![Olympus4](\images\20220315_120833.jpg)
+
 
 ### 18/3/22
 Have missed doing these for a while, due to somewhat losing motivation/elevated stress towards the end of term.
@@ -475,6 +480,7 @@ Next week:
   - High contract images
   - Isolated vesicles
   - Note down metadata in temika comments
+  - Preferably vesicle centred as far as possible
 
 - Plan (after speaking to Guil) for refinement:
   - Plot the power spectra
@@ -482,3 +488,7 @@ Next week:
   - Run `plot_contour_example.py` for some of my own data to see what looks nice (NB it works for Guil's RBC)
   - The power spectra decays towards some finite noise value, this is effectively a way of getting the "error" as defined in the fitting/analysis scripts
   - Compare bending moduli to literature values before proceeding blindly
+  - Work out what is done over which frame
+  - See what data I have that might be good to check out, and organise this to make it super easy in the future
+  - Will soon have to make this work for the lif/oif files too!
+  - Check Guil's recent work on the branches as he still seems to be active on them

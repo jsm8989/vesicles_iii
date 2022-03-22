@@ -1,8 +1,9 @@
-##### Guide to the repo:
+##### Guide to the repo (eventually):
 - Lab notes
 - Tex files for collaborative write up (compiled pdfs when appropriate)
 - Sample data
 - Useful scripts (mostly python) for simulation, interfacing with temika, ImageJ(?), and extracting bending modulus from movie files
+- NB all (most) data is in sf3/cicutagroup/jsm89, some will be in Z:/data_remote (it may need to pass through here on its way from temika)
 
 ### TODO (23/2)
 - (ALMOST DONE) Get flickering analysis to work for my data in user-friendly way
