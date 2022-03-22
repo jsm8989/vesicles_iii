@@ -31,7 +31,7 @@ Current files in data_remote as of 24/2/22 (for easy changing):
 
 
 
-m = Movie("../../data_remote/floppy.11Nov2021_11.18.23.movie")
+m = Movie("../../data_remote/round.22Feb2022_12.42.59.movie")
 n_frames = str(m.n_frames)
 print("There are " + n_frames + " frames in this movie")
 

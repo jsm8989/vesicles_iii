@@ -492,3 +492,8 @@ Next week:
   - See what data I have that might be good to check out, and organise this to make it super easy in the future
   - Will soon have to make this work for the lif/oif files too!
   - Check Guil's recent work on the branches as he still seems to be active on them
+
+- managed to get data from both temika computers, had to laboriously transfer via USB and/or data_remote
+- lots of the fluoro images do not seem to be working in ImageJ; similarly in python get "Invalid pixel mode: Must be 1 for MONO8, 2 for MONO16BE, and 3 for MONO16LE"
+- Annoying as not much of the data so far (at least from non-confocal) seems very useful. 
+- At least now I have a better idea about what I need to collect! - maybe ask Jurij about the imaging mode and make sure it's suitbale for subsequent analysis (could probably also check directly on temika PCs as they have ImageJ)
