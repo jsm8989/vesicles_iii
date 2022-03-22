@@ -1,12 +1,12 @@
 import sys
-sys.path.append("../python-temika-reader")
+sys.path.append("../python-temika-reader") # NB when doing this need to run the script from it's own dir
 sys.path.append("../contour_analyzer")
 from contour_fitter import load_contour_cpp
 from pytmk import Movie
 import matplotlib.pyplot as plt
 
 m = Movie("../well_C5_cell_0000.movie") 
-c = load_contour_cpp('../well_C5_cell_0000_contour_full.txt') # pre-produced by C++, don't currently have for any other files
+c = load_contour_cpp('../well_C5_cell_0000_contour_full.txt') 
 
 
 def plot_contour(i):

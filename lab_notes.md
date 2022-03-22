@@ -453,3 +453,32 @@ Next week:
 - BUT seems like today I could image across a bunch of microscopes, since the olympus is not very booked
 - Would really be good to have some data analysis today as I'm not sure (a) how long to take movies for, (b) if the camera settings are good enough, (c) what kind of metadata to collect...
 - NB this was all on 20x 0.75 objective
+
+- Coding from 11ish:
+  - SPent a long time on initialising the contours using Guil's method of creating a seed file, from which creating the full contour tracking was easy enough.
+  - A lot of debugging led to a problematic point, which I asked Guil about, and he essentially said you might as well skip it and go around it some other way
+  - So instead of creating the seed file, we pass the center and one edge point of the desired vesicle as arguments into the executable
+  - This then goes through the contour detection algorithm that Guil wrote (in the end with very few changes) and creates the _contour_full.txt file
+  - From there you can run analyze_all.py as before and it spits out decay times, tension, bending modulus (in theory)
+  - Decided to leave while it was still sunny as it had been a long day!
+
+
+### 22/3/22
+- In at 8:30 to get straight back onto the coding.
+- More debugging, testing with Guil's sample RBC, big git cleanup for much cleaner version control and clarity in what's my own
+- Around 10:40, managed to generate _contour_full.txt files for both Guil's RBC and for my own BF movie!!
+- Great success!
+- From here I could run analyze_all on them both to get some meaningful stuff out of it. Found out that the sys.path.append() things we have used for nicer imports require the script to be run from its home directory (so you couldn't, for example, run `python ../contour_analyzer/analyze_all.py .`)
+- Analysis seemed to work in general, but some of the decay times were a bit weird (including with uncertainty being the same as the mean) and in my own movie it gave a bending modulus of 4 (compared to ~250 for the RBC). Also noticed that "extra_info" comes from the temika comments added when recording the movie in the first place - good to record things like temp, center, edge, etc. Could maybe even then automate the center/edge assignment procedure using temika metadata
+- Currently seems the easy way to do this is hovering over desired point in imageJ
+- Outlook for data collection:
+  - High contract images
+  - Isolated vesicles
+  - Note down metadata in temika comments
+
+- Plan (after speaking to Guil) for refinement:
+  - Plot the power spectra
+  - Plot the fitting in the spectra
+  - Run `plot_contour_example.py` for some of my own data to see what looks nice (NB it works for Guil's RBC)
+  - The power spectra decays towards some finite noise value, this is effectively a way of getting the "error" as defined in the fitting/analysis scripts
+  - Compare bending moduli to literature values before proceeding blindly
