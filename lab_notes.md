@@ -497,3 +497,8 @@ Next week:
 - lots of the fluoro images do not seem to be working in ImageJ; similarly in python get "Invalid pixel mode: Must be 1 for MONO8, 2 for MONO16BE, and 3 for MONO16LE"
 - Annoying as not much of the data so far (at least from non-confocal) seems very useful. 
 - At least now I have a better idea about what I need to collect! - maybe ask Jurij about the imaging mode and make sure it's suitbale for subsequent analysis (could probably also check directly on temika PCs as they have ImageJ)
+
+
+
+### 23/2/22
+First objective 20X0.75 on temika
