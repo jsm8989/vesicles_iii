@@ -493,10 +493,15 @@ Next week:
   - Will soon have to make this work for the lif/oif files too!
   - Check Guil's recent work on the branches as he still seems to be active on them
 
-- managed to get data from both temika computers, had to laboriously transfer via USB and/or data_remote
+- managed to get data from both temika computers, had to laboriously transfer via USB and/or data_remote (NB: seems USB stick either works on windows XOR linux)
 - lots of the fluoro images do not seem to be working in ImageJ; similarly in python get "Invalid pixel mode: Must be 1 for MONO8, 2 for MONO16BE, and 3 for MONO16LE"
 - Annoying as not much of the data so far (at least from non-confocal) seems very useful. 
 - At least now I have a better idea about what I need to collect! - maybe ask Jurij about the imaging mode and make sure it's suitbale for subsequent analysis (could probably also check directly on temika PCs as they have ImageJ)
+- Also asked Jurij about centering the fil-diaphragm, which can be done with the little grey screws (better on the right scope)
+- And found a nice VSCode shortcut `Ctrl K, Ctrl 1` which folds in all the level one things (use J instead of 1 to fold them all out)
+- NB in `moviereader`, running `contour_tracker.combo_tracker(movie, first_point, center)` with pytmk class imported gives a pythonic way of getting the contours for Guil's RBC, which works! Could I have just used this the whole time (although need to check how it saves). Did take a few minutes and annoyingly I did not save the output (although, maybe a large part of it was printing the result...)
+- combo_tracker() supposedly corrects for vesicle drift too
+- TODO: try out something with .gitignore, it sounds easy enough and may solve some
 
 
 
