@@ -413,10 +413,10 @@ Olympus training with Chris Storey, + Pietro and Jack.
 See pictures
 Managed to image my vesicles but didn't take any meaningful data
 
-![Olympus1](\images\20220315_120817.jpg)
-![Olympus2](\images\20220315_120822.jpg)
-![Olympus3](\images\20220315_120826.jpg)
-![Olympus4](\images\20220315_120833.jpg)
+![Olympus1](images/20220315_120817.jpg)
+![Olympus2](images/20220315_120822.jpg)
+![Olympus3](images/20220315_120826.jpg)
+![Olympus4](images/20220315_120833.jpg)
 
 
 ### 18/3/22
