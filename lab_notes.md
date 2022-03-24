@@ -536,9 +536,21 @@ Pietro meeting (pre-childcare afternoon):
   - Increasing osmolar pressure by adding mroe sugar outside
   - Cool down (30mins in the fridge) then allow to warm up (30 mins at RTP) then image - could be a useful protocol
 - Will try again with fresh sample tomorrow. NB scanning rate on Olympus may not be good enough (Leica, with resonant scanner, should be better; as discussed, ideal for fast dynamics is a spinning disk). Also not really much point keeping the BF channel on Olympus as it really sin't optimised for it and not gonna get much meaningful data out of it
-- 
+- Can also get calibration slide from eg Harry, Sam, Jurij for Nikon pixel:micron scaling.
 
 TODO:
 - send BF images from today when we can see them (eg on python) - either multiled from yesterday or Nikon ones frmo today (RAW12)
 - Send example power spectrum (although currently will only get for BF, need to modiy software so that it works for fluoro too)
 - Chase up contracts, ESA is sending emails!
+
+
+Imaging with Michal:
+- Mode 7, MONO16
+- Use XML scripts! Will save a lot of time in the future
+- on Display settings: CLICK AUTOMATIC PIXEL RANGE (this is why MONO16 was always so bright)
+- Also, RAW8<>MONO8, pretty much. Jurij says don't bother using 12-bit stuff as most standard stuff will not decode it, and it gives the same info as 16-bit but with smaller bandwidth. RAW8 for high fps, MONO16 for high quality images
+- Passivate the glass slide! It's lucky you have seen anything
+- PDMS imaging well should be fine
+- Make some new glucose - normally only use it within about a week
+- These things will contribute to much less dirty samples and stuff
+- 
