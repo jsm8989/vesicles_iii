@@ -507,3 +507,16 @@ Next week:
 
 ### 23/2/22
 First objective 20X0.75 on temika
+Managed to image the same vesicle on both Nikon and Olympus, each with 2 different objectives
+Seemed to be fairly bleached by the time we were done
+Analysis wise, maybe easiest is to convert confocal files to TIF in ImageJ and then work from there 
+NB imagej has loads of useful edge detection, prcoessing features which might be useful - had a play around in the evening
+Also note that for fluoro images, the contour is the brightest point (ie max intenstiy) whereas for BF Guil's algorithm is looking for the max gradient (ie going from "bright" to "dark", depending on how the contrast is set up)
+This needs to be changed (or at least an option created) in the contour detection. Could look into the matlab code that Viola has been using (but that requires using matlab...)
+Easiest (in an ideal world) would be to have an ImageJ plugin for lfickering analysis!
+
+### 24/3/22
+- Tried again, sample less good this time.
+- Will still have a look and analyse it!
+- Show pietro after group meeting later
+- And redo EF to try again tomorrow (this early morning thing is working nciely)
