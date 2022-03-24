@@ -553,4 +553,6 @@ Imaging with Michal:
 - PDMS imaging well should be fine
 - Make some new glucose - normally only use it within about a week
 - These things will contribute to much less dirty samples and stuff
-- 
+- See example image settings for decent contrast:
+![image](https://user-images.githubusercontent.com/69422343/159947565-19a7091a-04bc-4fce-b0e6-733f72412718.png)
+- Could also try high sugar concs for better contrast (haven't tried this in a while - consider % osmolarity mismatch)
