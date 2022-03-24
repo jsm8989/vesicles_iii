@@ -520,3 +520,25 @@ Easiest (in an ideal world) would be to have an ImageJ plugin for lfickering ana
 - Will still have a look and analyse it!
 - Show pietro after group meeting later
 - And redo EF to try again tomorrow (this early morning thing is working nciely)
+
+
+
+Pietro meeting (pre-childcare afternoon):
+- Get BF images to work
+- Some subset of imaging the same vesicle on different techniques and objectives will be amazing
+- Watch the 12-bit stuff, ImageJ doesn't like it
+- Ask Jurij about .multiled
+- Check power spectra
+- Algortihm shouldn't be too hard to modify for fluoro images. it's a few lines of code that need troubleshooting. (see matlab code) Can effecitvely choose a centre (which may need a couple of iterations), then define a polar coord system. For each \theta (which you can decide how to break the pixels up into, maybe 360 degrees, but note that we may not need to resolve the finer modes up to a certain point) you can send a "ray" out, and effectively get an intensity profile as a function of r. Something about for each pixel, weighting it relative to the neighbouring pixels as a function of the distance to them; then you need to fit something to the maximum either using a Gaussian, parabola, whatever really. Then repeat over all theta, and the frame is done. Then repeat for all frames to give the total contour. 
+- Note down things like pixel to micron ratio (done automatically in confocal), also on Nikon whether the "magnify" lever is used or not (as this is not recorded anywwehre). THIS CAN AFFECT THE SCALING!
+- The fluoro images from yesterday are very nice! -perhaps need to be a bit more floppy (can only really know with the power spectrum)
+- Could make more floppy by:
+  - Increasing osmolar pressure by adding mroe sugar outside
+  - Cool down (30mins in the fridge) then allow to warm up (30 mins at RTP) then image - could be a useful protocol
+- Will try again with fresh sample tomorrow. NB scanning rate on Olympus may not be good enough (Leica, with resonant scanner, should be better; as discussed, ideal for fast dynamics is a spinning disk). Also not really much point keeping the BF channel on Olympus as it really sin't optimised for it and not gonna get much meaningful data out of it
+- 
+
+TODO:
+- send BF images from today when we can see them (eg on python) - either multiled from yesterday or Nikon ones frmo today (RAW12)
+- Send example power spectrum (although currently will only get for BF, need to modiy software so that it works for fluoro too)
+- Chase up contracts, ESA is sending emails!
