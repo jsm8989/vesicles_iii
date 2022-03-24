@@ -1,4 +1,4 @@
-A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field. Notes from Michaelmas were much less frequent.
+A general space for writing about things in the lab. Will likely be messy. Some (not super standard) abbreviations: MF = microfluidic, BF = bright field, EF = electroformation. Notes from Michaelmas were much less frequent.
 
 ### 27/10/21
 - Had initial meeting with Pietro and Guil
@@ -559,3 +559,11 @@ Imaging with Michal:
 - Also press "focus" button on scope, then zoom in - this will catch you when it is within acceptable focus, without hitting the sample, and allow you to use the up/down knob next to the stage mover (which has a satisfying noise)
 - Also seems that L80 (ie the bottom camera) is the better one to use
 - Also LED2 instead of LED0 on the BF channel?
+
+Imaging with Erika:
+- lots of rubbish vesicles, lots of dirt, maybe they have finally decided that passivation is required
+- should probably filter the glucose etc
+- should probably also not use old sucrose vesicles with new glucose
+- much higher contrast though! Pixel range + adjusting frame rate (also physically check filter cubes) is the key:
+![image](https://user-images.githubusercontent.com/69422343/159972399-3e65f22b-6e62-47ac-83b1-dbf5c2594194.png)
+
