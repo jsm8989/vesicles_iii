@@ -520,6 +520,7 @@ Easiest (in an ideal world) would be to have an ImageJ plugin for lfickering ana
 - Will still have a look and analyse it!
 - Show pietro after group meeting later
 - And redo EF to try again tomorrow (this early morning thing is working nciely)
+- This was using 40uL glucose, 0.5uL vesicles; yesterday was 1uL vesicles
 
 
 
@@ -564,6 +565,7 @@ Imaging with Erika:
 - lots of rubbish vesicles, lots of dirt, maybe they have finally decided that passivation is required
 - should probably filter the glucose etc
 - should probably also not use old sucrose vesicles with new glucose
+- Also tried one well where the glucose/vesicles were pre-mixed in an eppendorf tube with the same ratio as this morning (but could not see a clear difference as the sample was a bit trash anyway)
 - much higher contrast though! Pixel range + adjusting frame rate (also physically check filter cubes) is the key:
 ![image](https://user-images.githubusercontent.com/69422343/159972399-3e65f22b-6e62-47ac-83b1-dbf5c2594194.png)
 
