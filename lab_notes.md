@@ -558,3 +558,4 @@ Imaging with Michal:
 - Could also try high sugar concs for better contrast (haven't tried this in a while - consider % osmolarity mismatch)
 - Also press "focus" button on scope, then zoom in - this will catch you when it is within acceptable focus, without hitting the sample, and allow you to use the up/down knob next to the stage mover (which has a satisfying noise)
 - Also seems that L80 (ie the bottom camera) is the better one to use
+- Also LED2 instead of LED0 on the BF channel?
