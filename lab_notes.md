@@ -635,3 +635,5 @@ IMPORTANT: All temika data was copied, so I thought, into cicutagroup, although 
 
 Coding in the evening (until ~19:30):
 - neatened plot_contour_example and got it to work on floppy.11Nov2021_11.20.50.movie! This was after generating its contours using track_movie!! Shame it's not the nicest sample as the contour is a bit dodgy but still! Check this out!
+![image](https://user-images.githubusercontent.com/69422343/160464279-076dcef3-5194-4f23-b63d-c7c8b59a18c0.png)
+
