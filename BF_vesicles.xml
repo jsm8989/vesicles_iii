@@ -212,7 +212,7 @@
 	<save>
 		<header>Test Header.</header>
 		<basename>test_file</basename>
-		<append>TWONUMBERS</append> <!-- NOTHING, UNIQUENUMBER, DATE, TWONUMBERS -->
+		<append>DATE</append> <!-- NOTHING, UNIQUENUMBER, DATE, TWONUMBERS -->
 		<first_number_set>0</first_number_set>
 		<second_number_set>0</second_number_set>
 		<first_number_change>-1</first_number_change>
