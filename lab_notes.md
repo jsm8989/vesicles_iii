@@ -569,3 +569,20 @@ Imaging with Erika:
 - much higher contrast though! Pixel range + adjusting frame rate (also physically check filter cubes) is the key:
 ![image](https://user-images.githubusercontent.com/69422343/159972399-3e65f22b-6e62-47ac-83b1-dbf5c2594194.png)
 
+### 25/3/22
+- Tried new batch of vesicles again and sadly it once again was not great.
+- Also worked on getting a temika xml script going to save my illumination/camera settings but I didn't end up having much microscope time so did not succeed
+- Prepared for next EF
+- Left around 15:00 with Ollie who had just submitted his final report! Nice sunny day for a BBQ
+
+
+### 27/3/22
+- Made it in on Sunday after footy training, mainly to continue trying the xml scripts and to EF a 300mM sample for tomorrow
+- Made some progress with the xml, the interface is extremely nice but I kept getting "errors"
+- Tried on both 0.26 computers but the non-tweezers one was not fancying temika today (when I tried to restart temika it said "bind: address already in use"), and the tweezers one eventually did not connect to the camera (which seemed to be the source of most of my errors, although the illumination also did not work as I had expected it to), so I restarted that computer and decided to leave once my EF was done
+
+
+### 28/3/22
+- Neither 0.26 computers working this morning, and where is Jurij? He is always in earlier! :(
+- Have got next sample in vacuum for EF, but hoping this does not present a major problem, maybe I won't be able to get any data today. In which case: make sure the analysis routine is ready to go!
+- Also need to submit claims to UKSA!
