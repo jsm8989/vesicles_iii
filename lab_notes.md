@@ -523,8 +523,28 @@ Easiest (in an ideal world) would be to have an ImageJ plugin for lfickering ana
 - This was using 40uL glucose, 0.5uL vesicles; yesterday was 1uL vesicles
 
 
+For_Pietro_24Feb:
+To show:
+- lif images on ImageJ 
+    - how to make less noisy?
+    - haven't worked on analysing these yet
+    - possibly wrong laser
+- BF images (ImageJ plugin not working here) via, eg load.py or save_image.py
+    - the old ones are more floppy but less high quality, the newer ones are less floppy
+    - currently only single frames annoyingly
+- plot_contour_example.py using Guil's sample data
+- analyze_all.py which returns a text file of results once the movies and their associated contours are available
+- lab notes and others on GH (should share this repo)
+    - anything I should add?
 
-Pietro meeting (pre-childcare afternoon):
+Questions:
+- simulation aspect
+- plan for Olympus?
+- how much should I fit exactly the prescription in the paper (eg 197/200 in 1:9 vs 20/22 in 1:21)
+- what to look out for in "how many frames"
+
+
+Pietro meeting notes (pre-childcare afternoon):
 - Get BF images to work
 - Some subset of imaging the same vesicle on different techniques and objectives will be amazing
 - Watch the 12-bit stuff, ImageJ doesn't like it
@@ -608,5 +628,6 @@ IMPORTANT: All temika data was copied, so I thought, into cicutagroup, although 
 	- Image on Nikon again, modify XML script
 	- Get data specifcially for larger vesicles
   - + get Will to install MATLAB on PC1?
+  - Talk to Jurij about data recovery as above; also ask if the movie info can be recovered from the .multiled files (which some have saved as)
 - For XML scripts: settings after today (esp. after talking to Viola) are pasted below
 ![image](https://user-images.githubusercontent.com/69422343/160438809-30dbdcdc-4538-40d3-a8dc-b976c095206c.png)
