@@ -600,6 +600,9 @@ Computers fixed so managed afternoon imaging from 2-5pm:
 - Managed 3 or 4 different vesicles across the 20,40X objectives on both Nikon and Olympus (which, by the way, takes 0.065s for each frame, ie fps >~10, which may or may not be good enough?)
 - New sample and imaging felt good, might try again tomorrow for more data!
 - Code for Malaria interlock: 8126
+
+IMPORTANT: All temika data was copied, so I thought, into cicutagroup, although it did seem a bit weird. I created a dir called jsm89_data_28_march. Then came back for it, relogged onto PC, and it WAS still there. But, on mounting cicutagroup through cifs, I could no longer access this "unmounted" version and so could not transfer the data. Looks like you need to be superuser to unmount (tried umount on the terminal and through gui). ASK JURIJ TOMORROW - hoping it will just be there if unmounted
+
 - Plan for tomorrow:
 	- Try the cooling/rewarming thing to "reset" floppiness
 	- Image on Nikon again, modify XML script
