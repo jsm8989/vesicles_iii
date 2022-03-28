@@ -607,5 +607,6 @@ IMPORTANT: All temika data was copied, so I thought, into cicutagroup, although 
 	- Try the cooling/rewarming thing to "reset" floppiness
 	- Image on Nikon again, modify XML script
 	- Get data specifcially for larger vesicles
+  - + get Will to install MATLAB on PC1?
 - For XML scripts: settings after today (esp. after talking to Viola) are pasted below
 ![image](https://user-images.githubusercontent.com/69422343/160438809-30dbdcdc-4538-40d3-a8dc-b976c095206c.png)
