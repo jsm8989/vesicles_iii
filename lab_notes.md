@@ -590,6 +590,7 @@ Imaging with Erika:
 
 
 Computers fixed so managed afternoon imaging from 2-5pm:
+- All imaging done using 300mM vesicles in 303mM glucose, and on the Nikon the 1.5x magnifier was OFF
 - Viola was helpful in pointing out a few things, for fluoro should maximise gain and shutter and always use MONO16
 - Can see the filter cube number on the rotor under the cube
 - Can keep the filter in place for BF with the right camera settings etc
@@ -598,5 +599,10 @@ Computers fixed so managed afternoon imaging from 2-5pm:
 - Start with as low illumination as possible, remember to do the whole condenser adjustment stuff
 - Managed 3 or 4 different vesicles across the 20,40X objectives on both Nikon and Olympus (which, by the way, takes 0.065s for each frame, ie fps >~10, which may or may not be good enough?)
 - New sample and imaging felt good, might try again tomorrow for more data!
+- Code for Malaria interlock: 8126
+- Plan for tomorrow:
+	- Try the cooling/rewarming thing to "reset" floppiness
+	- Image on Nikon again, modify XML script
+	- Get data specifcially for larger vesicles
 - For XML scripts: settings after today (esp. after talking to Viola) are pasted below
 ![image](https://user-images.githubusercontent.com/69422343/160438809-30dbdcdc-4538-40d3-a8dc-b976c095206c.png)
