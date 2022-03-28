@@ -22,7 +22,7 @@ shape = np.shape(frame)
 
 img = Image.fromarray(frame)
 
-img.show() # image without contour
+#img.show() # image without contour
 
 
 
@@ -30,13 +30,13 @@ img.show() # image without contour
 
 
 # think of good way to get center, first point 
-first_point = [61,114] # for the example vesicle image
-center = [0.5*shape[0],0.5*shape[1]] # should work generally for any image centred on the vesicle
+first_point = [155,112] # for the example vesicle image
+center = [112,112] # should work generally for any image centred on the vesicle
 contour1 = contour_tracker.get_contour(frame, first_point, center, verbose = True)
 print("Result of get_contour: \n", contour1)
 
 
-contours = contour_tracker.combo_tracker(m, first_point, center, verbose = True)
+#contours = contour_tracker.combo_tracker(m, first_point, center, verbose = True, start=10, end=100)
 
 
-contour_tracker.save_contour("contour.txt",contours, start = 10, end = 100)
+contour_tracker.save_contour("contour.txt",contour1)

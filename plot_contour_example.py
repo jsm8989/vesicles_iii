@@ -8,8 +8,8 @@ import os
 
 min_len = 200
 
-m = Movie("../well_C5_cell_0000.movie") 
-cf = '../well_C5_cell_0000_contour_full.txt'
+m = Movie("C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\floppy.11Nov2021_11.20.50.movie") 
+cf = 'C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\floppy.11Nov2021_11.20.50_contour_full.txt'
 c = load_contour_cpp(cf) 
 
 contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c))
