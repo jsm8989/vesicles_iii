@@ -2,7 +2,7 @@ import sys
 sys.path.append("../python-temika-reader")
 sys.path.append("../contour_analyzer")
 sys.path.append("../moviereader")
-sys.path.append("C:\Users\jsm89\Documents") # tried, but keep getting weird unicodeescape error
+
 
 #from read_cpp_contour import load_contour_cpp
 from pytmk import Movie
@@ -32,7 +32,7 @@ Current files in data_remote as of 24/2/22 (for easy changing):
 
 
 
-m = Movie("cicutagroup_jsm89_copy\\floppy.11Nov2021_11.20.50.movie")
+m = Movie("C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\BF_20X.24Mar2022_09.25.00.movie")
 n_frames = str(m.n_frames)
 print("There are " + n_frames + " frames in this movie")
 

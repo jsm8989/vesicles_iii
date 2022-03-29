@@ -53,6 +53,8 @@ def plot_contour(i):
 
 
 # eg 10th frame and contour 
-plot_contour(10)
+choice = 11
+plot_contour(choice)
+plt.title("{}th frame with superimposed contour".format(choice))
 plt.show()
 
