@@ -660,4 +660,12 @@ Imaging with older sample:
 
 New sample:
 - EF growth stage for 2h40 instead of the usual 2h, wanted to see if we get bigger, floppier stuff
-- 
+- Was then going to image it but was happy to let Roger use it instead, I'll be there again tomorrow morning!
+- Finished Hex cleaning step
+
+Afternoon:
+- Installed matlab on PC1, turns out those flickering codes (however old they are - found one I think? identical file on github `lp389` from 6 years ago...) work!!
+- So ran a few of those to test it out, seems to be ok for fluoro and BF, and supposedly with AVI/LIF filetypes too. 
+- Will go over it tomorrow with Viola who has a slightly updated version
+- Note this is different to Guil's algorithm. Seems to give some decent power spectra but NEED TO COMPARE BETWEEN THEM
+- Not sure about Olympus files, will see what we should transfer them into...
