@@ -656,3 +656,8 @@ Imaging with older sample:
 - Went back and found v1 again, which had a very nice BF channel when using high illumination, which would be nice (especially if we had epi going too) but contributes to bleaching somewhat (which isn't ideal). 
 - Did manage to image it with low intensity, high voltage, high offset really nicely (almost a perfect edge, save for a few artefacts)
 - NEED TO KNOW: are the olympus files good enough(ie high enough fps, max = 1/0.065) and am I scanning for long enough (currently taking 100 frames, which feels short - check mode decay times etc). Would be a shame to have to take all the confocal data again. ANALYSE!
+
+
+New sample:
+- EF growth stage for 2h40 instead of the usual 2h, wanted to see if we get bigger, floppier stuff
+- 
