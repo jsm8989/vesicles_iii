@@ -635,3 +635,29 @@ IMPORTANT: All temika data was copied, so I thought, into cicutagroup, although 
 
 Coding in the evening (until ~19:30):
 - neatened plot_contour_example and got it to work on floppy.11Nov2021_11.20.50.movie! This was after generating its contours using track_movie!! Shame it's not the nicest sample as the contour is a bit dodgy but still! Check this out!
+![image](https://user-images.githubusercontent.com/69422343/160464279-076dcef3-5194-4f23-b63d-c7c8b59a18c0.png)
+
+
+
+### 29/3/22
+- Jurij again not in the morning so will have to wait to ask the above
+- XML script working perfectly as I intended :)
+- Sample is a bit dead at this point so started new EF with 300mM sucrose
+- Tried preparing sample with extra cover slip on top, unsure if this has made any significant difference other than stopping evaporation (which isn't very fast, but overnight seems to have mostly gone so it's definitely there - and can then of course affect osmolarity)
+- Tried the fridge technique, put in upstairs for 30 mins (after already preparing in PDMS well) and then imaged it again for ~30 mins after
+	- Didn't notice a significant difference really, still the same features in that the wobbly ones are all shedding in some way or another
+	- Ask Pietro/Guil if these are worth imaging
+	- If contour algorithm is good enough, can also pick relatively taught ones where the fluctuations are just visible - test! Also might make it easier to image the larger ones
+
+
+Imaging with older sample:
+- found a nice vesicle on nikon while waiting for EF, got it on 20x and 40x (note use of 1.5mag, see temika header)
+- Found something else on confocal which was semi nice but had a weird BF, turned out to be the wrong one (forgot about the confocal asymmetry)
+- Went back and found v1 again, which had a very nice BF channel when using high illumination, which would be nice (especially if we had epi going too) but contributes to bleaching somewhat (which isn't ideal). 
+- Did manage to image it with low intensity, high voltage, high offset really nicely (almost a perfect edge, save for a few artefacts)
+- NEED TO KNOW: are the olympus files good enough(ie high enough fps, max = 1/0.065) and am I scanning for long enough (currently taking 100 frames, which feels short - check mode decay times etc). Would be a shame to have to take all the confocal data again. ANALYSE!
+
+
+New sample:
+- EF growth stage for 2h40 instead of the usual 2h, wanted to see if we get bigger, floppier stuff
+- 
