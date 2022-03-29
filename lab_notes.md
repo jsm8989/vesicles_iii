@@ -637,3 +637,14 @@ Coding in the evening (until ~19:30):
 - neatened plot_contour_example and got it to work on floppy.11Nov2021_11.20.50.movie! This was after generating its contours using track_movie!! Shame it's not the nicest sample as the contour is a bit dodgy but still! Check this out!
 ![image](https://user-images.githubusercontent.com/69422343/160464279-076dcef3-5194-4f23-b63d-c7c8b59a18c0.png)
 
+
+
+### 29/3/22
+- Jurij again not in the morning so will have to wait to ask the above
+- XML script working perfectly as I intended :)
+- Sample is a bit dead at this point so started new EF with 300mM sucrose
+- Tried preparing sample with extra cover slip on top, unsure if this has made any significant difference other than stopping evaporation (which isn't very fast, but overnight seems to have mostly gone so it's definitely there - and can then of course affect osmolarity)
+- Tried the fridge technique, put in upstairs for 30 mins (after already preparing in PDMS well) and then imaged it again for ~30 mins after
+	- Didn't notice a significant difference really, still the same features in that the wobbly ones are all shedding in some way or another
+	- Ask Pietro/Guil if these are worth imaging
+	- If contour algorithm is good enough, can also pick relatively taught ones where the fluctuations are just visible - test! Also might make it easier to image the larger ones
