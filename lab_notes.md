@@ -669,3 +669,9 @@ Afternoon:
 - Will go over it tomorrow with Viola who has a slightly updated version
 - Note this is different to Guil's algorithm. Seems to give some decent power spectra but NEED TO COMPARE BETWEEN THEM
 - Not sure about Olympus files, will see what we should transfer them into...
+
+
+### 30/3/22
+Good early chat with Jurij which solved all of my problems. 
+- Made pull request to Temika-guide for troubleshooting issues I feel confident to share (not sure if anyone reads it anymore anyway)
+- In case of hard reboot: the dnatweezers computer (currently on the left in 0.26) can be done with a hard reboot, just long press the power button until everything shuts down and then start it up again. The cellimager PC (on the right) can be done similarly, but it may help to take the USB cable with foil on at the back out before trying to turn it on again. 
