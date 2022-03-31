@@ -684,3 +684,5 @@ TODO - rest of day
 EF with 20mM vesicles from 7:40, did some nonlinear optics questions while waiting, managed to get scopes for straight after (although engineer is doing PAT tests at some point)
 - New well, put in 34uL glucose and 2uL vesicles, then tried to put on a coverslip but realised doing it in this way just draws it all out of the well by surface tension, which was a bit annoying
 - proceeded with imaging anyway, at first the sample was lovely but very quickly became one of the worst (took some great "fail" images though). Lots of tethers, "coronas", movement etc. Did get one nice one but could not find on confocal, then tried to find again on Nikon and also unsuccessful
+- V2 was aspherical and I caught fission footage
+- V3 was good but took too long so once done with Nikon it had many internal babies
