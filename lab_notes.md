@@ -675,3 +675,12 @@ Afternoon:
 Good early chat with Jurij which solved all of my problems. 
 - Made pull request to Temika-guide for troubleshooting issues I feel confident to share (not sure if anyone reads it anymore anyway)
 - In case of hard reboot: the dnatweezers computer (currently on the left in 0.26) can be done with a hard reboot, just long press the power button until everything shuts down and then start it up again. The cellimager PC (on the right) can be done similarly, but it may help to take the USB cable with foil on at the back out before trying to turn it on again. 
+
+TODO - rest of day
+
+
+
+### 31/3/22
+EF with 20mM vesicles from 7:40, did some nonlinear optics questions while waiting, managed to get scopes for straight after (although engineer is doing PAT tests at some point)
+- New well, put in 34uL glucose and 2uL vesicles, then tried to put on a coverslip but realised doing it in this way just draws it all out of the well by surface tension, which was a bit annoying
+- proceeded with imaging anyway, at first the sample was lovely but very quickly became one of the worst (took some great "fail" images though). Lots of tethers, "coronas", movement etc. Did get one nice one but could not find on confocal, then tried to find again on Nikon and also unsuccessful
