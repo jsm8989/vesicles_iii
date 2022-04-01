@@ -706,3 +706,13 @@ Viola pm chat about matlab flickering codes
 
 TODO: compare decent spectra from both Guil's and Viola's over a suitable range, and implement codes for each of BF, epi, confocal (incl setup for AVIs, and find a smooth way of converting to this)
 ALSO: my current olympus file naming system is trash and needs improving. Or just switch to the leica with the resonant scanner
+
+
+### 1/4/22
+- Someone else has booked the Olympus - is this some kind of April fools joke?
+- Bit tired after swim this morning, don't plan to do much lab work other than get previous Olympus data, and prepare slide in vacuum maybe for EF on sunday?
+- Computational tasks outlined above - also make progress on write up! This will help when talking through the data with other people!
+- QI seminar on quantum biology at 3pm already planned as my break, plus I won't be staying too late today (after being in from 07:30-21:00 yesterday...) as am meeting people in College for dinner at 6pm
+
+
+
