@@ -8,8 +8,8 @@ import os
 
 min_len = 200
 
-m = Movie("C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\floppy.11Nov2021_11.20.50.movie") 
-cf = 'C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\floppy.11Nov2021_11.20.50_contour_full.txt'
+m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_20x.29Mar2022_10.39.52.movie") 
+cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_20x.29Mar2022_10.39.52_contour_full.txt'
 c = load_contour_cpp(cf) 
 
 contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c))
@@ -43,7 +43,7 @@ def plot_contour(i):
 	"""
 	Plot entire contour over image
 	"""
-	fit = fit_mps(contours, fit_param, plot = True, verbose = True) # plot the PS too
+	fit = fit_mps(contours, fit_param, plot = True, verbose = True) # plot the PS too -- maybe save these somewhere with a nice naming system?
 
 	plt.imshow(m.get_frame(i))
 	if c[i][1] is not None:
@@ -54,7 +54,8 @@ def plot_contour(i):
 
 # eg 10th frame and contour 
 choice = 11
+#for choice in range(110, 120):
 plot_contour(choice)
-plt.title("{}th frame with superimposed contour".format(choice))
+plt.title("{}th frame with superimposed contour. If blank, may be bad_frame".format(choice))
 plt.show()
 

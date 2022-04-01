@@ -687,3 +687,22 @@ EF with 20mM vesicles from 7:40, did some nonlinear optics questions while waiti
 - V2 was aspherical and I caught fission footage
 - V3 was good but took too long so once done with Nikon it had many internal babies
 - Got a few more but hard to find on confocal... overall 21GB of Nikon data from today! Talk to Viola about analysis later
+- Forgot to get confocal data but will do this tomorrow
+
+
+Viola pm chat about matlab flickering codes
+- set pixel:micron ratio, temperature, etc. WIDTH can be varied if detection doesn't work on the first few tries. Try readjusting centre and first point. Not entirely sure what changing fluo from false to true does
+- If brightfield, want dark-light-dark at the membrane; pick just inside the light region. If epi, choose brightest point on "edge" ie furthest from centre
+- Set up three different scripts, one for each imaging mode so you don't have to change anything
+- Sent me a lot of useful stuff; clean up the dir and add the new one, also she said she would in addition send a code to correct for translation over time
+- Play with which modes we want to fit (may be able to do this faster without redoing the whole contour, simply the spectrum analysis)
+- Guil's is "state of the art", at least for RBCs. Compare the power spectra with both of them
+- Can save any file as AVI through ImageJ and then run it in the new code
+- Some of the recent data is really nicely detected on the matlab
+- Note also the (dd vs rr) correction for non-spherical geometries where, instead of subtracting a circlular contour, you find the fluctuation by subtracting the mean contour over all frames
+- The "white interior" analysis she showed me was super fast!
+- Optimise all these things before you just whack it on overnight!
+- Available tomorrow/next week to see how it's going, maybe send her one or two example data to see how she goes with it
+
+TODO: compare decent spectra from both Guil's and Viola's over a suitable range, and implement codes for each of BF, epi, confocal (incl setup for AVIs, and find a smooth way of converting to this)
+ALSO: my current olympus file naming system is trash and needs improving. Or just switch to the leica with the resonant scanner
