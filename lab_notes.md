@@ -728,3 +728,22 @@ ALSO: my current olympus file naming system is trash and needs improving. Or jus
 - During exploration I came across the open microscopy environment, seems cool
 
 
+### 4/4/22
+
+DLW:
+- Tried it as I was tired - maybe not the best idea in terms of results...
+- Most of the "prep" was legit. I used the same glass slide that I had previously tried and just went on the back - not sure if this is inherently bad but I wasn't going to use the other side again so why not. Cleaned it and water-desorbed as usual.
+- Used spin process 7 again (as in the training) without reallyyyy checking if it had changed, although it looked similar. This was with SU8 2010 from Dean's little bottle in the flammable cupboard. May have been a few bubbles on the substrate surface after coating so this was probably not ideal. 
+- Soft bake was approx correct! Temperatures not exact but I think they were fine. Did for ~1min at 65n and ~1min at 95 (defo need to check my thickness though again in case this is completely off).
+- Laser writer thing worked well; I ended up using just one of the blocks from "31 genn.vet". It's been a while since I've done CAD stuff but this looked like what I was after, and after remembering to set the xposure settings the preview looked as I expected. 
+- I didn't take tooo much time on the levelling bit, also noticing that the instructions/tips for doing this are not on Dean's handout. However from memory I think I did it correctly and certainly after exposure I could see the correct pattern by eye at least. Only took about 5 mins so I just waited and got the next bit setup..
+- Post exposure bake was nominal.
+- Once again I was caught out with the plastic petri dish with does not agree with PGMEA. Fine for IPA though. Used the glass one left there for the PGMEA, and exposed initially for 30s. This was clearly not enough, so did for about another 15sec. The IPA was clean so I rinsed the subtrate and dried it - sadly did not see much of the exposed structure left. Proceeded to bake and write these notes but I'm not expecting much from that particular run...
+
+Thoughts:
+- computer is now connected to the wifi, although not the BSS network space so likely still use the USB going forward (although at least can maybe remote connect to others if I have forgotten it, or logon to Autodesk online to retrieve my stuff)
+- If I'm only after a proof-of-principle, this could surely be sped up by having eg Aske or me doing the process and just combining our CAD designs onto the same substrate? Obviously only if they are similar resolution, requiring the same SU8, spinning, baking, etc... BUT after that it's just a matter of pouring on PDMS and then cutting out each relevant bit. I guess it's then not "your own" and maybe that person would be away on a certain day or something, but in theory it's no extra effort for someone other than maybe waiting longer for the expousre.
+- Defo need to re-read the thickess/baking time protocols and do it a bit more officially next time... at least the general idea is still there. Also have another look at the lab notes from the training and subsequent attempts!
+- Would like to have another go with the inlet punching drill...
+- Can't remember what you're supposed to do with the waste chemicals in the glass bowl! - checked with Viola - in the waste bottle in cupboard as expected...
+- Actually, on microscope inspection, the small bit that has exposed properly is very very nice. Shme it's only about 1 tenth of the planned structure, not sure if it is still PDMS workable... nice traps though and would certainly like to try this one again. Also: the glass slide is extremely dirty...
