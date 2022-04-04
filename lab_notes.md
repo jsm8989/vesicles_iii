@@ -714,5 +714,14 @@ ALSO: my current olympus file naming system is trash and needs improving. Or jus
 - Computational tasks outlined above - also make progress on write up! This will help when talking through the data with other people!
 - QI seminar on quantum biology at 3pm already planned as my break, plus I won't be staying too late today (after being in from 07:30-21:00 yesterday...) as am meeting people in College for dinner at 6pm
 
+- Did some writing and formatting (a bit too much formatting really, but I'm happy with the current outcome)
+- Spoke to Chris in the evening about vectorising the images in latex, they do look really nice but it's not a great use of time (especially for my figures which aren't so easy to vectorise?)
+- The "mechanics of the cell" book has a nice derivation of the fluctuation modes!
+
+
+### 3/4/22
+- Didn't do much project work over the weekend other than coming in to EF today, while waiting I went on a jog and picked up an Agatha Christie book in Coton so read that for a while
+- Was planning to use the DLW but was unsure if Max's stuff (who had booked before me) was finished, so will maybe try and get on it tomorrow!
+
 
 
