@@ -1,0 +1,1140 @@
+<SettingsFile 'vesicle2_20x.oif'>
+  2D Display: 
+    Center Point Type: 0
+    ChAutoFit: 1
+    Columns: 2
+    Grid: 0
+    H Axis: C
+    Image Size Auto: 1
+    L End Pos: -1
+    L Interval: 1
+    L Start Pos: 1
+    Rows: 1
+    Show Center Point: 0
+    ShowDivisionsOnScale: 1
+    ShowLabelOnColorBar: 1
+    ShowLabelOnScale: 1
+    T End Pos: 100
+    T Interval: 1
+    T Start Pos: 1
+    Tile Type: 1
+    V Axis: C
+    View 1: 1
+    View 2: 2
+    View Cnt: 2
+    View Max CH: 2
+    Z End Pos: -1
+    Z Interval: 1
+    Z Start Pos: 1
+   Acquisition Parameters Common: 
+    Acquisition Device: FV1000
+    AcquisitionMode: 1
+    Assign Dye Manually: 0
+    Auto C.A: 1
+    Auto HV: 1
+    EveryTrigger Enable: 0
+    FindMode: 1
+    GUI StartScanMode: 1
+    GUI StopScanMode: 1
+    ImageCaputreDate: 2022-03-28 15:57:06
+    ImageCaputreDate+MilliSec: 517
+    IntegrationCount: 0
+    IntegrationType: None
+    LaserTransmissivity01: 2.8
+    LaserWavelength01: 559
+    LightPath: 2
+    Number of use Laser: 1
+    Observation Mode: 3
+    RegionMode: None
+    SamplingClock: 40000000
+    ScanDirection: Roundtrip
+    ScanMode: XYT
+    ScanRegionMode: 1
+    SequentialMode: None
+    StartScan InputTrigegr: 0
+    StartScan InputTrigger Enable: 0
+    StartScan OutputTrigger: 0
+    StartScan OutputTrigger Enable: 0
+    StartScanTime: 0
+    StopScan InputTrigger: 0
+    StopScan InputTrigger Enable: 0
+    StopScan OutputTrigger: 0
+    StopScan OutputTrigger Enable: 0
+    StopScanTime: 87
+    Total Number of Laser: 6
+    Total Number of Sequential: 1
+    Z Slices Check: 0
+    Z Stepsize Check: 1
+    ZoomValue: 24.0
+   Axis 0 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: X
+    AxisName: X
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    ClipPosition: 0
+    EndPosition: 26.265
+    GUI MaxSize: 256
+    MaxSize: 256
+    PixUnit: um
+    StartPosition: 0.0
+    UnitName: um
+   Axis 1 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: Y
+    AxisName: Y
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    ClipPosition: 0
+    EndPosition: 26.265
+    GUI MaxSize: 256
+    MaxSize: 256
+    PixUnit: um
+    StartPosition: 0.0
+    UnitName: um
+   Axis 2 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: C
+    AxisName: Ch
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 2.0
+    GUI MaxSize: 2
+    MaxSize: 2
+    PixUnit: Ch
+    StartPosition: 1.0
+    UnitName: Ch
+   Axis 3 Parameters Common: 
+    AbsolutePosition: 3841670.0
+    AxisCode: Z
+    AxisName: Z
+    AxisZControlUnit: PSU
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 66840.0
+    GUI MaxSize: 0
+    Interval: 1160
+    MaxSize: 0
+    Piezo Z Slice: 0
+    Piezo Z Start Position: 0
+    Piezo Z Step: 0
+    PixUnit: nm
+    Start Absolute Position: 3908510
+    StartPosition: 66840.0
+    Stop Absolute Position: 3921270
+    UnitName: nm
+   Axis 4 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: T
+    AxisName: T
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 6490.4
+    GUI MaxSize: 100
+    Interval: 0
+    MaxSize: 100
+    PixUnit: ms
+    StartPosition: 0.0
+    UnitName: ms
+   Axis 5 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: A
+    AxisName: Angle
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 0.0
+    GUI MaxSize: 0
+    MaxSize: 0
+    PixUnit: deg
+    StartPosition: 0.0
+    UnitName: deg
+   Axis 6 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: L
+    AxisName: Lambda
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    CH Number: 2
+    EndPosition: 497.0
+    GUI MaxSize: 0
+    Interval: 5
+    MaxSize: 0
+    PixUnit: nm
+    Resolution: 10
+    Start Absolute Position: 492
+    StartPosition: 492.0
+    Stop Absolute Position: 652
+    UnitName: nm
+   Axis 7 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: P
+    AxisName: Point
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 0.0
+    GUI MaxSize: 0
+    MaxSize: 0
+    PixUnit: mm
+    StartPosition: 0.0
+    UnitName: mm
+   Axis 8 Parameters Common: 
+    AbsolutePosition: 0.0
+    AxisCode: Q
+    AxisName: Unknown
+    CalibrateValueA: 100.0
+    CalibrateValueB: 0.0
+    EndPosition: 0.0
+    GUI MaxSize: 0
+    MaxSize: 0
+    PixUnit: Unknown
+    StartPosition: 0.0
+    UnitName: Unknown
+   Axis Parameter Common: 
+    AxisCount: 4
+    AxisOrder: XYCT
+   Bleach GUI Parameters Common: 
+    UseScanner: 3
+   Channel 1 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 10000
+    AnalogPMTVoltage: 723
+    BF Name: (null)
+    BF Position: 570
+    BF Range: 10
+    CH Name: CHS1
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 1
+    DyeName: Texas Red
+    EmissionDM Name: Mirror
+    EmissionDM Position: 1
+    EmissionWavelength: 612
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 559
+    LaserCombType: 1
+    LaserNDLevel: 28
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 1
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 1
+   Channel 2 Parameters: 
+    AnalogPMTGain: 3000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 310
+    BF Name:
+    BF Position: 0
+    BF Range: 0
+    CH Name: TD1
+    Confocal: OFF
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 1
+    DyeName: None
+    EmissionDM Name:
+    EmissionDM Position: 0
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 488
+    LaserCombType: 1
+    LaserNDLevel: 10
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Transmitted Light
+    Physical CH Number: 6
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 0
+   Corr Bright: 
+    Corr Bright OnOff: 0
+    Corr Bright ZPos Count: 0
+   File Info: 
+    DataName: vesicle2_20x.oib
+    FileFormat: Olympus Image Format
+    FileType: GrayScale
+    Path: D:\olympus test\jsm89\
+    UserComment: Checking out comment metadata - this w3as all bidrectional
+    UserName: Administrator
+   GUI Channel 1 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 10000
+    AnalogPMTVoltage: 723
+    BF Name: (null)
+    BF Position: 570
+    BF Range: 10
+    CH Activate: 1
+    CH Name: CHS1
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 1
+    DyeName: Texas Red
+    EmissionDM Name: Mirror
+    EmissionDM Position: 1
+    EmissionWavelength: 612
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 559
+    LaserCombType: 1
+    LaserNDLevel: 28
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 1
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 1
+   GUI Channel 2 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 625
+    BF Name: (null)
+    BF Position: 500
+    BF Range: 45
+    CH Activate: 0
+    CH Name: CHS2
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 2
+    DyeName:
+    EmissionDM Name: SDM560
+    EmissionDM Position: 4
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 488
+    LaserCombType: 1
+    LaserNDLevel: 10
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 2
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 1
+   GUI Channel 3 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 495
+    BF Name: BA575-675
+    BF Position: 2
+    BF Range: 0
+    CH Activate: 0
+    CH Name: CH3
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 3
+    DyeName:
+    EmissionDM Name: Mirror
+    EmissionDM Position: 1
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 559
+    LaserCombType: 1
+    LaserNDLevel: 28
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 3
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 0
+   GUI Channel 4 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 545
+    BF Name: BA505-540
+    BF Position: 0
+    BF Range: 0
+    CH Activate: 0
+    CH Name: HSD1
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    CubeSet Name: FV12-MHBY
+    Device CH Number: 1
+    DyeName: None
+    EmissionDM Name: SDM560
+    EmissionDM Position: 0
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 488
+    LaserCombType: 1
+    LaserNDLevel: 10
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 4
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 0
+   GUI Channel 5 Parameters: 
+    AnalogPMTGain: 1000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 525
+    BF Name: BA575-675
+    BF Position: 0
+    BF Range: 0
+    CH Activate: 0
+    CH Name: HSD2
+    Confocal: ON
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    CubeSet Name: FV12-MHBY
+    Device CH Number: 2
+    DyeName: None
+    EmissionDM Name: SDM560
+    EmissionDM Position: 0
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 559
+    LaserCombType: 1
+    LaserNDLevel: 28
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Fluorescence
+    Physical CH Number: 5
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 0
+   GUI Channel 6 Parameters: 
+    AnalogPMTGain: 3000
+    AnalogPMTOffset: 0
+    AnalogPMTVoltage: 310
+    BF Name:
+    BF Position: 0
+    BF Range: 0
+    CH Activate: 1
+    CH Name: TD1
+    Confocal: OFF
+    CountingPMTGain: 0
+    CountingPMTOffset: 160
+    CountingPMTVoltage: 0
+    Device CH Number: 1
+    DyeName: None
+    EmissionDM Name:
+    EmissionDM Position: 0
+    EmissionWavelength: 0
+    ExcitationDM Name: DM405/488/559/635
+    ExcitationDM Position: 4
+    ExcitationWavelength: 488
+    LaserCombType: 1
+    LaserNDLevel: 10
+    LaserNDLevelScale: 5
+    LaserTargetUnit: 2
+    LightType: Transmitted Light
+    Physical CH Number: 6
+    PMTDetectingMode: 0
+    SequentialNumber: 1
+    Spectrum CH Enable: 0
+   HDRI_Info: 
+    CurrentPosition: 1
+    Enable_Laser: 1
+    Enable_PMT: 0
+    ExposureType: 0
+    HDRI_Convert: 0
+    HDRI_Count: 0
+    HDRI_OnOff: 0
+    RatioValue_HV: 200
+    RatioValue_NDLevel: 200
+   Laser 0 Parameters: 
+    Laser Enable: 0
+    LaserCombinerType: 1
+    LaserTransmissivity: 10
+    LaserWavelength: 405
+    ND Scale: 5
+   Laser 1 Parameters: 
+    Laser Enable: 0
+    LaserCombinerType: 1
+    LaserTransmissivity: 0
+    LaserWavelength: 458
+    ND Scale: 5
+   Laser 2 Parameters: 
+    Laser Enable: 0
+    LaserCombinerType: 1
+    LaserTransmissivity: 10
+    LaserWavelength: 488
+    ND Scale: 5
+   Laser 3 Parameters: 
+    Laser Enable: 0
+    LaserCombinerType: 1
+    LaserTransmissivity: 0
+    LaserWavelength: 515
+    ND Scale: 5
+   Laser 4 Parameters: 
+    Laser Enable: 1
+    LaserCombinerType: 1
+    LaserTransmissivity: 28
+    LaserWavelength: 559
+    ND Scale: 5
+   Laser 5 Parameters: 
+    Laser Enable: 0
+    LaserCombinerType: 1
+    LaserTransmissivity: 0
+    LaserWavelength: 635
+    ND Scale: 5
+   ProfileSaveInfo: 
+    FrameCount: 200
+    LUTCount: 2
+    LutFileName0: vesicle2_20x.oif.files\s_LUT1.lut
+    LutFileName1: vesicle2_20x.oif.files\s_LUT2.lut
+    Name: COFAImages
+    ObjectCount: 206
+    PtyFileNameE: vesicle2_20x.oif.files\s_C002T100.pty
+    PtyFileNameS: vesicle2_20x.oif.files\s_C001T001.pty
+    PtyFileNameT1: vesicle2_20x.oif.files\s_%s.pty
+    PtyFileNameT2: vesicle2_20x.oif.files\s_C%03dT%03d.pty
+    PtyFileNameThumbnail0: vesicle2_20x.oif.files\s_Thumb.pty
+    ReferenceFrameCount: 0
+    ROICount: 3
+    ROICountEx: 2
+    RoiFileName0: vesicle2_20x.oif.files\s_238855776-3189487.roi
+    RoiFileNameEx0: vesicle2_20x.oif.files\s_CUTHT.roi
+    RoiFileNameEx1: vesicle2_20x.oif.files\s_CUTVT.roi
+    Version: 2.0.0.0
+   Reference Image Parameter: 
+    HeightConvertValue: 0.103
+    HeightUnit: um
+    ImageDepth: 2
+    ImageHeight: 256
+    ImageWidth: 256
+    PixConvertValue: 1.0
+    PixUnit: Intensity
+    ValidBitCounts: 12
+    WidthConvertValue: 0.103
+    WidthUnit: um
+   Sequential Group 0 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 5
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 1
+    Sequential NumberOfChannel: 2
+   Sequential Group 1 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 10 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 11 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 12 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 13 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 14 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 15 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 16 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 17 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 18 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 19 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 2 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 20 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 21 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 22 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 23 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 24 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 25 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 26 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 27 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 28 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 29 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 3 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 30 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 31 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 4 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 5 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 6 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 7 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 8 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   Sequential Group 9 Parameters Common: 
+    ChannelIndex  0: 0
+    ChannelIndex  1: 0
+    ChannelIndex  2: 0
+    ChannelIndex  3: 0
+    ChannelIndex  4: 0
+    ChannelIndex  5: 0
+    ChannelIndex  6: 0
+    ChannelIndex  7: 0
+    ChannelIndex  8: 0
+    ChannelIndex  9: 0
+    ChannelIndex 10: 0
+    ChannelIndex 11: 0
+    ChannelIndex 12: 0
+    ChannelIndex 13: 0
+    ChannelIndex 14: 0
+    ChannelIndex 15: 0
+    Sequential Enable: 0
+    Sequential NumberOfChannel: 0
+   SuperResolution_Info: 
+    NoiseReduce_OnOff: 0
+    Scan_Counts: 20
+    Strength: 5.0
+    SuperResolution_Mode: 0
+    SuperResolution_OnOff: 0
+   Version Info: 
+    FileVersion: 1.2.6.0
+    SystemName: FLUOVIEW FV1000
+    SystemVersion: 4.2.1.20

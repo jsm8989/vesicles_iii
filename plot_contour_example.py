@@ -14,6 +14,8 @@ c = load_contour_cpp(cf)
 
 contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c))
 
+
+# probably need to change pixel resolution from default - TODO
 fit_param = default_fit_parameters
 fit_param['sub_radius'] = 'static_shape'
 fit_param['vertical_radius'] = 1000.

@@ -723,5 +723,8 @@ ALSO: my current olympus file naming system is trash and needs improving. Or jus
 - Didn't do much project work over the weekend other than coming in to EF today, while waiting I went on a jog and picked up an Agatha Christie book in Coton so read that for a while
 - Was planning to use the DLW but was unsure if Max's stuff (who had booked before me) was finished, so will maybe try and get on it tomorrow!
 
+- Right now: looking to find the .oib metadata, to see if it has a micron per pixel value (otherwise will go and check on the hardware/manual)
+- Success, see for example `oifread.py` (and thanks to the person who wrote the oiffile py lib)
+- During exploration I came across the open microscopy environment, seems cool
 
 
