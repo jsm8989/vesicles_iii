@@ -763,3 +763,4 @@ Afternoon imaging:
 - The non-tweezers epi had an extremely narrow field of view today... don't think that is normal really
 - More leica time, and I found out the epi on it is amazing (at least for spotting good vesicles). Maybe also felt great in comparions to the today rubbish Nikon
 - Took some 10k frame images on Leica with both 20x and 40x dry objectives, sadly the vesicle sample (that I just prepared) still wasn't great... time for new solutions!!
+- Saved 2x .lif files in nscratch
