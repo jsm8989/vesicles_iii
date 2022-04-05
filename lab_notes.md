@@ -747,3 +747,19 @@ Thoughts:
 - Would like to have another go with the inlet punching drill...
 - Can't remember what you're supposed to do with the waste chemicals in the glass bowl! - checked with Viola - in the waste bottle in cupboard as expected...
 - Actually, on microscope inspection, the small bit that has exposed properly is very very nice. Shme it's only about 1 tenth of the planned structure, not sure if it is still PDMS workable... nice traps though and would certainly like to try this one again. Also: the glass slide is extremely dirty...
+
+
+
+### 5/4/22
+- Tried morning imaging with vesicles from sunday, in 1:20 dilution, but they were sadly rubbish. 
+- The one time the leica is not overbooked!
+- So i EF again, due off at ~14:00
+- In the meantime, sorted some citations, read some papers, added a bit to report. Should try and see Pietro today as I missed him yesterday, also ask Tim about that laptop that needs disposal...
+
+
+Afternoon imaging:
+- in Nikon room with Kate, my vesicles weren't showing up for some reason (on the non-tweezers).
+- Did get to see the tweezers in action, they are so cool!! It's like a video game!
+- The non-tweezers epi had an extremely narrow field of view today... don't think that is normal really
+- More leica time, and I found out the epi on it is amazing (at least for spotting good vesicles). Maybe also felt great in comparions to the today rubbish Nikon
+- Took some 10k frame images on Leica with both 20x and 40x dry objectives, sadly the vesicle sample (that I just prepared) still wasn't great... time for new solutions!!
