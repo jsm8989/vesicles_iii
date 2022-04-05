@@ -764,3 +764,4 @@ Afternoon imaging:
 - More leica time, and I found out the epi on it is amazing (at least for spotting good vesicles). Maybe also felt great in comparions to the today rubbish Nikon
 - Took some 10k frame images on Leica with both 20x and 40x dry objectives, sadly the vesicle sample (that I just prepared) still wasn't great... time for new solutions!!
 - Saved 2x .lif files in nscratch
+- TODO: nscratch was not big enough for them all so I need to go back and get them from the computer via usb, if they are still there....
