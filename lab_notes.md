@@ -760,8 +760,26 @@ Thoughts:
 Afternoon imaging:
 - in Nikon room with Kate, my vesicles weren't showing up for some reason (on the non-tweezers).
 - Did get to see the tweezers in action, they are so cool!! It's like a video game!
-- The non-tweezers epi had an extremely narrow field of view today... don't think that is normal really
+- The non-tweezers epi had an extremely narrow field of view today... don't think that is normal really. Viola had a look and couldn't do much, I asked Sam to do the alignment thing which at first seemed to be the issue but then didn't actually change anything... at least I now know how that's done!
 - More leica time, and I found out the epi on it is amazing (at least for spotting good vesicles). Maybe also felt great in comparions to the today rubbish Nikon
 - Took some 10k frame images on Leica with both 20x and 40x dry objectives, sadly the vesicle sample (that I just prepared) still wasn't great... time for new solutions!!
 - Saved 2x .lif files in nscratch
 - TODO: nscratch was not big enough for them all so I need to go back and get them from the computer via usb, if they are still there....
+
+
+
+### 6/4/22
+- Did some lecture work in the morning
+- Came in the afternoon primarily for microfluidics (+ to sign various cards for the leavers!)
+- Dean was just finishing off so I only got into microfluidics at 15:30, also the card access has been changed and mine hasn't yet been updated...#
+- in the meantime made some new 20/22 mM solutions, could have been contributing to rubbish sample in the last few days, and prepared next slide for EF (in vacuum now)
+- Baked + span based on SU8 2010, 20mm thickness. Saved modified design as "jamie_DLW.VET". Proceeded with two cuts, then realised that would take a few hours, and originally it was my intention to stay in the room during exposure (as doing a similar design on coarse mode the other day took ~10 mins) and this would avoid access problems, however even for only one pattern doing it on fine meant it would take more like 1h30 and I did not feel like sitting in there for that time (without good wifi etc so couldn't have done much useful). So am now waiting to see if anyone with access will be around by 18:00 but if not, I'll just have to come and get it tomorrow when someone will be (eg Tim). 
+- NB levelling procedure was super dodgy today and I must have spent a good 20 mins trying to get it to work, in the end I effectively just ignored it so if the exposure doesn't work out this is certainly a strong candidate as to why!
+- NB have also left USB plugged in!!
+
+
+### 7/4/22
+Today:
+- EF? Then imaging? - Rini at some point wanted to see the EF again. Leica is free frmo 18:30 today! And I have no evening plans. So EF later...
+- Get slide out of laser writer and pour some PDMS on it (use a smaller plastic petri dish for that one? Although may break again). Baking takes ~ 2hrs + prep time - maybe can get the PDMS going and then do the post exposure bake/deevlopment?
+- Depends on card acces situation (which is currently unclear... Need to resend the original form... which has expired...)
