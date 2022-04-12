@@ -784,12 +784,16 @@ Today:
 - Get slide out of laser writer and pour some PDMS on it (use a smaller plastic petri dish for that one? Although may break again). Baking takes ~ 2hrs + prep time - maybe can get the PDMS going and then do the post exposure bake/deevlopment?
 - Depends on card acces situation (which is currently unclear... Need to resend the original form... which has expired...)
 
-TODO: finish
+Rest of day:
+- did exactly as above as my card access was fine
 
 
 
 ### 8/4/22
 TODO: Pietro meeting (and revision)
+- first "in person" group meeting for Viola's actual last day
+- then Pietro cycled over to speak to me and her
+- See handwritten notes for that meeting (most of the day prior to this was lecture work)
 
 
 
@@ -807,6 +811,15 @@ Plan:
 - Calibrate Nikon for different objectives and 1.5x toggle using the slides - this is important in data analysis
 - Check TR filter specs in Nikon room (picture the stuff on the door)
 
+Day:
+- spent morning on above plan and writing report; pretty much finished the introduction and background, as well as experimental methods
+- Spoke to Guil and Roger about various things. Hoping to write the analysis and software part soon. 
+- Put sample on for EF before speaking to Kieran and Chris about QI papers
+- Did some NLO questions, including trying to work out exactly what "parametric" means in this context
+- spent the evening on the Leica, trying different pinhole sizes on the same vesicle etc, not too much going back and forth between rooms this time. 
+- Did convince myself that re-pipetting vesicles into the well makes for a much nicer sample (in that a far higher proportion of them are "isolated"). Quite nice to see them equilibrating after they've just gone in.
+- Also probably spent too much time looking at the laser (with the leica in epi mode) and I should watch out...
+
 
 ### 12/4/22
 While waiting for Leica availablility I found a "Starlight calibration slide" in the drawer of the Nikon room. Calibration imaging procedure:
@@ -817,3 +830,18 @@ While waiting for Leica availablility I found a "Starlight calibration slide" in
 - NB the focus on the 60x did not seem as nice, and the light distribution on the 10x was not very uniform.
 - In terms of getting pixel:micron out of these, I expect I could find the diameters in pixels using eg ImageJ. Would expect them to be the same for all frame sizes I think, but different across objectives and magnifications. 
 - Try to estimate the uncertainty each time!
+
+
+Leica time:
+- took some images of varying pinhole size on the same vesicle
+- took some trying to vary the objective - did notice that overall the Leica images are only any good with an oil objective, which (a) makes it harder to try different NA and (b) makes it harder to compare vesicles across scopes. Again I ask, why we don't just attach a different camera to the leica and use the temika functionality as this would make life a lot easier. This week may be good as the Nikon (and the Leica) are barely booked...
+- Got a couple of vesicles which I think I also then got on the Nikons, but we will have to see. My default Nikon objective is the 20x0.75NA which is obviously different to those on the Leica, so might affect direct comparison between the two. 
+- Once again, the Nikon epi images weren't great, will still try and analyse them!
+- Also, it seems that files of size >~4.2GB don't want to be copied onto my USB, which is really annoying for the ~4 lif files I need to get across to cicutagroup/jsm89...
+
+
+Small microfluidics progress:
+- was wondering whether to try and use the DLW again today for the same design; then realised I have an old Si wafer version of it!
+- So cut out the PDMS, bonded it happily to a slide, and... realised I had forgotten to punch the inlet holes
+- Either way, checked it on the scope (10x), and it looked pretty good but not great. Lots of gaps and stuff. Unclear if that's in the bonding or the exposure in the Si. At least can hope one on that wafer is good (or that it was the bonding) and take it to Timo later in the week for the EVOS!
+- See microfluidics_latest.movie (which is 11.2GB... defo not needed) for a quick film of it, might be good for presentation.
