@@ -845,3 +845,5 @@ Small microfluidics progress:
 - So cut out the PDMS, bonded it happily to a slide, and... realised I had forgotten to punch the inlet holes
 - Either way, checked it on the scope (10x), and it looked pretty good but not great. Lots of gaps and stuff. Unclear if that's in the bonding or the exposure in the Si. At least can hope one on that wafer is good (or that it was the bonding) and take it to Timo later in the week for the EVOS!
 - See microfluidics_latest.movie (which is 11.2GB... defo not needed) for a quick film of it, might be good for presentation.
+
+TODO: add some images before hitting the library for revision.,..
