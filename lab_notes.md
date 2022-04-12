@@ -819,6 +819,7 @@ Day:
 - spent the evening on the Leica, trying different pinhole sizes on the same vesicle etc, not too much going back and forth between rooms this time. 
 - Did convince myself that re-pipetting vesicles into the well makes for a much nicer sample (in that a far higher proportion of them are "isolated"). Quite nice to see them equilibrating after they've just gone in.
 - Also probably spent too much time looking at the laser (with the leica in epi mode) and I should watch out...
+- Pietro sent some comments back in the afternoon which I am happy with! Now just got to get to work on the data...
 
 
 ### 12/4/22
@@ -830,6 +831,8 @@ While waiting for Leica availablility I found a "Starlight calibration slide" in
 - NB the focus on the 60x did not seem as nice, and the light distribution on the 10x was not very uniform.
 - In terms of getting pixel:micron out of these, I expect I could find the diameters in pixels using eg ImageJ. Would expect them to be the same for all frame sizes I think, but different across objectives and magnifications. 
 - Try to estimate the uncertainty each time!
+- ![image](https://user-images.githubusercontent.com/69422343/163002751-8ff0078a-7bba-4167-80ac-d4d51a6c991a.png)
+
 
 
 Leica time:
@@ -845,5 +848,5 @@ Small microfluidics progress:
 - So cut out the PDMS, bonded it happily to a slide, and... realised I had forgotten to punch the inlet holes
 - Either way, checked it on the scope (10x), and it looked pretty good but not great. Lots of gaps and stuff. Unclear if that's in the bonding or the exposure in the Si. At least can hope one on that wafer is good (or that it was the bonding) and take it to Timo later in the week for the EVOS!
 - See microfluidics_latest.movie (which is 11.2GB... defo not needed) for a quick film of it, might be good for presentation.
+![image](https://user-images.githubusercontent.com/69422343/163002926-d701ec26-dbea-49e6-8369-c6f2e4ccaa51.png)
 
-TODO: add some images before hitting the library for revision.,..
