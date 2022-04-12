@@ -8,8 +8,16 @@ import os
 
 min_len = 200
 
-m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_20x.29Mar2022_10.39.52.movie") 
-cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_20x.29Mar2022_10.39.52_contour_full.txt'
+m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27.movie") 
+cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27_contour_full.txt'
+
+## should work, throws TypeError :()
+#m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27.movie") 
+#cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27_contour_full.txt'
+
+
+#m = Movie("../well_C5_cell_0000.movie")
+#cf = "../well_C5_cell_0000_contour_full.txt"
 c = load_contour_cpp(cf) 
 
 contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c))

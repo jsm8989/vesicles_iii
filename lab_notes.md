@@ -783,3 +783,26 @@ Today:
 - EF? Then imaging? - Rini at some point wanted to see the EF again. Leica is free frmo 18:30 today! And I have no evening plans. So EF later...
 - Get slide out of laser writer and pour some PDMS on it (use a smaller plastic petri dish for that one? Although may break again). Baking takes ~ 2hrs + prep time - maybe can get the PDMS going and then do the post exposure bake/deevlopment?
 - Depends on card acces situation (which is currently unclear... Need to resend the original form... which has expired...)
+
+TODO: finish
+
+
+
+### 8/4/22
+TODO: Pietro meeting (and revision)
+
+
+
+### 9/4/22
+Came into POM to get slide under vacuum. Looks like Leica is free on Monday but not otherwise next week...
+Thought: are my lipids spending ***too*** long under vacuum? Could this be degrading the samples somehow?
+
+
+
+### 11/4/22
+Plan:
+- send Pietro copy of working report
+- Go and get Leica, Olympus specs
+- Find out Nikon specs
+- Calibrate Nikon for different objectives and 1.5x toggle using the slides - this is important in data analysis
+- Check TR filter specs in Nikon room (picture the stuff on the door)
