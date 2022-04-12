@@ -806,3 +806,14 @@ Plan:
 - Find out Nikon specs
 - Calibrate Nikon for different objectives and 1.5x toggle using the slides - this is important in data analysis
 - Check TR filter specs in Nikon room (picture the stuff on the door)
+
+
+### 12/4/22
+While waiting for Leica availablility I found a "Starlight calibration slide" in the drawer of the Nikon room. Calibration imaging procedure:
+- Order of objectives: 20x0.75, 40x0.95, 10x0.45, 60x1.20 (all without oil, which I think is correct for the 60!)
+- For each objective, did the aperture/fd settings (NB for 10x it was very nice to see the aperture clearly!)
+- found the same set of 3 spheres, which are supposedly 6um diameter, and focused on them for each different image, using the extra fine focus knob. 
+- Imaged a "big", "middle" and "small" frame for each objective and version of Mag ON or OFF, except for the 40x where there is no "big" and the 60x where the mag just stayed off. 
+- NB the focus on the 60x did not seem as nice, and the light distribution on the 10x was not very uniform.
+- In terms of getting pixel:micron out of these, I expect I could find the diameters in pixels using eg ImageJ. Would expect them to be the same for all frame sizes I think, but different across objectives and magnifications. 
+- Try to estimate the uncertainty each time!
