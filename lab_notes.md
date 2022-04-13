@@ -856,5 +856,6 @@ Small microfluidics progress:
 Attempted to 3D print another, slightly modified syringe pump
 - made the "arm" narrower and removed the "pole" from the base, using blender on PC1
 - then installed Ultimaker Cura on PC1 (can't remember when I last used this...) and used the following settings:
-[TODO]
+![image](https://user-images.githubusercontent.com/69422343/163228823-2d10d76e-47f4-48f4-9b8d-02751ed12603.png)
 - didn't work out too well, it is significantly lighter than last time and the arm completely failed. Might be to do with how I "narrowed" it (which was using the extend tool on blender... which tbh is a pain)
+- Otherwise was a QI day 
