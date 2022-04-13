@@ -850,3 +850,11 @@ Small microfluidics progress:
 - See microfluidics_latest.movie (which is 11.2GB... defo not needed) for a quick film of it, might be good for presentation.
 ![image](https://user-images.githubusercontent.com/69422343/163002926-d701ec26-dbea-49e6-8369-c6f2e4ccaa51.png)
 
+
+
+### 13/4/22
+Attempted to 3D print another, slightly modified syringe pump
+- made the "arm" narrower and removed the "pole" from the base, using blender on PC1
+- then installed Ultimaker Cura on PC1 (can't remember when I last used this...) and used the following settings:
+[TODO]
+- didn't work out too well, it is significantly lighter than last time and the arm completely failed. Might be to do with how I "narrowed" it (which was using the extend tool on blender... which tbh is a pain)
