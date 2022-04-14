@@ -859,3 +859,14 @@ Attempted to 3D print another, slightly modified syringe pump
 ![image](https://user-images.githubusercontent.com/69422343/163228823-2d10d76e-47f4-48f4-9b8d-02751ed12603.png)
 - didn't work out too well, it is significantly lighter than last time and the arm completely failed. Might be to do with how I "narrowed" it (which was using the extend tool on blender... which tbh is a pain)
 - Otherwise was a QI day 
+
+
+### 14/4/22
+Reprinted the base with the following settings, which is due to take ~2h45
+![image](https://user-images.githubusercontent.com/69422343/163357799-5d37c3c0-3d09-4e66-8bba-e11fb6ebf9a4.png)
+
+Wanted to try out the MF chip that I bonded just before leaving yesterday evening, punched with the green 0.75 manual puncher, which on eye inspection looked good. It was certainly better than the prev one in that there was a channel going the whole way through, but the traps were still "covered" and I still don't know if this is a bonding issue or a DLW issue. 
+- When I tried to pass fluid through it, however, it still leaked out of the inlet hole. I tried a few different things, incl placing a bigger tube directly into theinlet, and placing the luer needle of the syringe directly in too. 
+- Even tried to superglue (thanks Harry) the bigger tube in to create a seal, but maybe I then tried too quickly as it still found a way out!
+- Am now printing the same design but much bigger, which I'm hoping will (a) make the traps better, (b) maybe be more appropriate for my sizes anyway, (c) be much easier to pass fluid through. Post-spin bake: 1min at 65, 3min at 95. 
+- 
