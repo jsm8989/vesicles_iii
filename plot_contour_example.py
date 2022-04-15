@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 import os
 
 min_len = 200
-
-m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27.movie") 
-cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27_contour_full.txt'
+path = "\\\\sf3\\cicutagroup\\jsm89\\"
+m = Movie(path+"v8_BF_40x.12Apr2022_15.01.16.movie") 
+cf = path+'v8_BF_40x.12Apr2022_15.01.16_contour_full.txt'
 
 ## should work, throws TypeError :()
 #m = Movie("\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27.movie") 
@@ -20,7 +20,12 @@ cf = '\\\\sf3\\cicutagroup\\jsm89\\v1_BF_40x.29Mar2022_10.37.27_contour_full.txt
 #cf = "../well_C5_cell_0000_contour_full.txt"
 c = load_contour_cpp(cf) 
 
-contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c))
+# returns a list of all "frames" in the text file which have length > min_len (ie before going to 0...)
+contours = list(filter(lambda z: z[1] is not None and len(z[1]) > min_len, c)) #
+with open("Z:\\code\\vesicles_iii\\contour_example.txt", "a") as f:
+	#f.write("countours.shape = {}".format(contours.shape))
+	f.write("len(contours) = {}".format(len(contours)))
+	f.write(str(contours))
 
 
 # probably need to change pixel resolution from default - TODO

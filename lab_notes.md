@@ -869,4 +869,11 @@ Wanted to try out the MF chip that I bonded just before leaving yesterday evenin
 - When I tried to pass fluid through it, however, it still leaked out of the inlet hole. I tried a few different things, incl placing a bigger tube directly into theinlet, and placing the luer needle of the syringe directly in too. 
 - Even tried to superglue (thanks Harry) the bigger tube in to create a seal, but maybe I then tried too quickly as it still found a way out!
 - Am now printing the same design but much bigger, which I'm hoping will (a) make the traps better, (b) maybe be more appropriate for my sizes anyway, (c) be much easier to pass fluid through. Post-spin bake: 1min at 65, 3min at 95. 
-- 
+
+
+NB: need to get the recent LIF files from my USB and from the actual PC, into cicutagroup.... 
+Plan: 
+- stick with Guil's code, which is on the whole working fine (and nicer to use than Matlab). 
+- Show some things about it, like perturbing the starting points having no effect on the final contour. 
+- Modify it for epi/confocal. Should really not be too hard.
+- Analyze what I've got, then take more data accordingly, but keep that simple (which has been much bettter recently).
