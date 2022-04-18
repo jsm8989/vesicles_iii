@@ -877,3 +877,42 @@ Plan:
 - Show some things about it, like perturbing the starting points having no effect on the final contour. 
 - Modify it for epi/confocal. Should really not be too hard.
 - Analyze what I've got, then take more data accordingly, but keep that simple (which has been much bettter recently).
+
+
+### Easter weekend
+- Came in on Friday to try and convert the matlab contours into a format analysable by the python routine. Realised this was not trivial due to the different detection algorithms. Had a good think about Guil's drafts and responded to him, and read through the "mechanics of the cell" chapter again over lunch before returning it to the library (in favour of Zoller's QS book for revision purposes.)
+- Took out the latest MF chip from laser writer, and did the post-exposure treatment. Today I found out that you can blow the developed pattern off the substrate!!! Of the two I had lying there, one just blew off when I dried it ahead of the long hard bake. The other also moved, so I don't know how successfully I managed to place it back down. 
+- Put it in for PDMS treatment and the weighing scale was not turning on, so I eyeballed it using tablespoons (approx 3 large ones of PDMS, and roughly half one of curing agent) and put it in the oven. 2hrs later it still seemed quite soft... have left it to cool to see if that always happens, otherwise I must have got the proportions wrong. Will more baking save it?
+- Did some coding on Friday night, Saturday was almost exclusively lecture work, with my laptop showing signs of unhappiness (probably had to restart it due to freezing about 7 times...)
+- Sunday morning was planned to implement Pietro's corrections to the report and type up the section on contour analysis, however my laptop really wasn't having any of it. I could not get it to work for more than 10 minutes at a time so decided to download an exam paper on my phone and try to do that instead, although realising that I need to back up the important things on my laptop that I'll need for the next few months
+- In the evening managed to get it to work (unplugging everything, ensuring the auto-suspend was turned off, removing options for auto-reducing display brightness) and managed to implement Pietro's corrections. Tomorrow: into office to write up contour analysis, and check current data (+ maybe get some new)
+
+
+### 18/4/22
+Finding pixel/micron from calibration images: 
+- Open specific image on ImageJ
+- Draw straight line across diameter (they should all be 6um)
+- Click `analyze`>`set scale` and input known distance of diameter
+- This then returns a pixel/um value, and then also allows setting of scale bar etc (we should really split the data up by category in some way...)
+
+Results: pixels/um (written here to imagej precision, although obviously this is based on what I selected as the diameter - estimate uncertainty?)
+- calibration_6um_spheres_10x0.45_MagOff_big.12Apr2022_12.07.55.movie                 1.3333
+- calibration_6um_spheres_10x0.45_MagOff_middle.12Apr2022_12.09.09.movie              1.3333
+- calibration_6um_spheres_10x0.45_MagOff_small.12Apr2022_12.10.12.movie               1.6667
+- calibration_6um_spheres_10x0.45_MagOff_small.12Apr2022_12.11.17.movie
+- calibration_6um_spheres_10x0.45_MagOn_big.12Apr2022_12.08.22.movie                  2.3333
+- calibration_6um_spheres_10x0.45_MagOn_middle.12Apr2022_12.08.50.movie               2.3333   
+- calibration_6um_spheres_10x0.45_MagOn_small.12Apr2022_12.10.23.movie                1.3437, 1.5
+- calibration_6um_spheres_20x_MagOff_big.12Apr2022_11.55.34.movie                     2.6667
+- calibration_6um_spheres_20x_MagOff_middle.12Apr2022_11.55.52.movie                  2.6667
+- calibration_6um_spheres_20x_MagOff_small.12Apr2022_11.56.04.movie                   2.8333
+- calibration_6um_spheres_20x_MagOn_big.12Apr2022_11.57.03.movie                      4.3333
+- calibration_6um_spheres_20x_MagOn_middle.12Apr2022_11.57.18.movie                   4
+- calibration_6um_spheres_20x_MagOn_small.12Apr2022_11.57.30.movie                    4.1667
+- calibration_6um_spheres_40x_MagOff_middle.12Apr2022_12.03.16.movie                  5.5
+- calibration_6um_spheres_40x_MagOff_small.12Apr2022_12.05.11.movie                   5.5025
+- calibration_6um_spheres_40x_MagOn_middle.12Apr2022_12.04.25.movie                   8.3333
+- calibration_6um_spheres_40x_MagOn_small.12Apr2022_12.04.46.movie                    8.3333
+- calibration_6um_spheres_60x1.20WI_MagOff_big_badfocus.12Apr2022_12.22.22.movie     9.3333
+- calibration_6um_spheres_60x1.20WI_MagOff_middle_badfocus.12Apr2022_12.22.52.movie  9.8333
+- calibration_6um_spheres_60x1.20WI_MagOff_small_badfocus.12Apr2022_12.23.31.movie   9.5015
