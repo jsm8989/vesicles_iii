@@ -31,8 +31,8 @@ Current files in data_remote as of 24/2/22 (for easy changing):
 """
 
 
-
-m = Movie("C:\\Users\\jsm89\\Documents\\cicutagroup_jsm89_copy\\BF_20X.24Mar2022_09.25.00.movie")
+filename = sys.argv[1]
+m = Movie(filename)
 n_frames = str(m.n_frames)
 print("There are " + n_frames + " frames in this movie")
 
