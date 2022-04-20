@@ -916,3 +916,45 @@ Results: pixels/um (written here to imagej precision, although obviously this is
 - calibration_6um_spheres_60x1.20WI_MagOff_big_badfocus.12Apr2022_12.22.22.movie     9.3333
 - calibration_6um_spheres_60x1.20WI_MagOff_middle_badfocus.12Apr2022_12.22.52.movie  9.8333
 - calibration_6um_spheres_60x1.20WI_MagOff_small_badfocus.12Apr2022_12.23.31.movie   9.5015
+
+
+### 19/4/22
+Spoke to Pietro in the morning, should really get report done and think about plan B as he understands the software problem.
+- last few days of experiments
+- makes sense to really explore and visualise the parameter space for flickering measurements
+- should be able to Fourier tranform the Helfrich fluctuations over q_y and get the projected dependence, eg in mathematica
+- Also never sat down to get his head round the camera shutter time formula, so would be really nice to present this in a convincing way and show the results too
+
+
+Went into the lab in the afternoon, spoke to Jurij who was removing users from the Nikon PCs, talked about how he got into the electronics and his PhD as well as building computers in general.
+- Imaging went ok, focused mainly on acquisition time measurements which seemed to work out, tried to analyse there and then but the local Fiji did not have the movie plugin so couldn't find the initial point, also the C++ file just kept returning segmentation fault anyway
+- So tried to rdesktop and analyse directly that way, was able to produce a couple of contours before TNA meeting 
+- did TNA meeting 7-8pm in Nikon room and then wrote up a couple of things, got another set of shutter data and decided to finish.
+- evening once home was almost exclusively TNA prep (got home around 9ish, tested USB, neatened arduino code, added stuff to website, prepared presentation slides, read through ER, sent UKSA email)
+
+
+### 20/4/22
+Have decided that this should be the preliminary last day of experiment.
+Want to get a semi-complete draft in on Friday (even if the results aren't great - explain why)
+This morning did QS 2021 and had the final ESA meeting, which went reasonably well. 
+- TODO: send Pietro email with equipment list we are bringing for travel safety
+- TODO: remote desktop into my linux laptop from a windows (might be networking issues here?)
+
+Arrived at office around midday after successfully getting pump screws and bike bolts from College.
+- Great day to have forgotten my camcard... Looks like tomorrow is the last experiment day, and today is writing!
+- tracked some more contours
+- played around with python analysis to save the power spectra, and tested them for finite focal depth
+- Found the "plot_guides" feature quite nice to look at
+- Wrote the rest of section 3 and started skeleton of ch4
+- Sunny pond lunch, American collaborator is here for a week or so
+- Still need to see what images I can "save"
+- Have sent Viola my matlab problem who is very kindly looking at it, but given she had not seen it before I'm not so sure there's an easy fix/that it's worth her time... but probably also not mine at this point!
+- Still waiting for Guil so check out the running of to zeros in my frames... could change a lot of my analysis
+- Spoke to Jurij about the student workshop (seems to be non-part III, but can get trained on mills, CNCs, etc) and screws which are either availbale from his bench or from stores
+
+
+Plan for tomorrow:
+- Ask Emma if she has any "spare" chips and/or tubing
+- Talk to Richard
+- Timo in biochemistry from 15:00, then Pem dinner at 6?
+- Try to get some shutter time data if the previous ones haven't worked out
