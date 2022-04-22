@@ -664,7 +664,7 @@ New sample:
 - Finished Hex cleaning step
 
 Afternoon:
-- Installed matlab on PC1, turns out those flickering codes (however old they are - found one I think? identical file on github `lp389` from 6 years ago...) work!!
+- Installed matlab on PC1, turns out those flickering codes (however old they are - found one I think? identical file on github `lp389` from 6 years ago... https://github.com/lp389/VesEquatorFlickeringCodes) work!!
 - So ran a few of those to test it out, seems to be ok for fluoro and BF, and supposedly with AVI/LIF filetypes too. 
 - Will go over it tomorrow with Viola who has a slightly updated version
 - Note this is different to Guil's algorithm. Seems to give some decent power spectra but NEED TO COMPARE BETWEEN THEM
@@ -958,3 +958,37 @@ Plan for tomorrow:
 - Talk to Richard
 - Timo in biochemistry from 15:00, then Pem dinner at 6?
 - Try to get some shutter time data if the previous ones haven't worked out
+
+
+
+### 21/4/22
+Continued writing, pretty much went according to plan, arrived just before 9am and left around 14:15 to get ice cream before seeing Timo at biochemistry.
+- Got signal generator, multimeter and cables from Richard; tested multimeter, seemed to work
+- Tried short shutter imaging, the sample was just rubbish so not worth spending much time on.
+- Turns out the imaging chambers are in the malaria lab, so will need to ask for some of them next week.
+- Tried a microfluidic prep ahead of going to Timo's, similar to last time in that it didn't work although putting the metal contact into the inlet instead of tubing did seem to work much better (running the pump while it was in just caused it to get stuck, instead of leaking out of the inlet)
+
+Timos: see text file on laptop (TODO: add here)
+- approx 15:45-17:30.
+
+
+### 22/4/22
+Try and hit the 5000 word barrier today! Send Pietro something before heading home.
+
+Pietro said for figures, it might be easiest to put them all together in powerpoint or inkscape, then import them as a single figure instead of subfigure mess.
+- If ppt, then "print as pdf" instead of just saving, as the latter reduces resolution
+Otherwise just small checkup around 13:00 to see if the matlab was working, whether there was anything he could do, and double check the submission plan for the next couple of weeks (along with exams and ESA)
+
+Matlab analysis seems to be working by just loading all the files into nuclei.m
+- although is taking a while
+- and it is "pausing" just before fitting, and I have to press a key to keep it going
+- have commented something called `pause` out to hopefully prevent this
+- cannot load .lif directly but, through avi everything is possible. 
+- The BF movies are working (ish) too, giving something that could be called a power spectrum.
+- Currently analysing through the shutter time series, strangely during the contour analysis a lot of the images are "drifting off" (took a photo on phone) but the tracked contour still seems pretty circular so I'm just gonna trust it's only the visuals looking weird.
+- have written into the results section everything that I seem to have and the plan for what to put in there. Will be nice to see what Pietro has to say about most the rest of it. Have also put in place a plan for the conclusion and outlook but this really shouldn't take too long to write...
+- NEED TO HAVE A SUBMISSION BEFORE ESA!
+- pause thing sorted :)
+- also, for clear analysis and image formatting, need to find a nice way to convert the .mat data into python for the power spectra (so far which the numerical data has not been saved; should really do this too. At least running analyze_all is way quicker...)
+- AND NEED TO CORRECT FOR MICROSCOPE CALIBRATION PIXEL PER MICRON!!!!!
+
