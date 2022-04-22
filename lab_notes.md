@@ -992,3 +992,9 @@ Matlab analysis seems to be working by just loading all the files into nuclei.m
 - also, for clear analysis and image formatting, need to find a nice way to convert the .mat data into python for the power spectra (so far which the numerical data has not been saved; should really do this too. At least running analyze_all is way quicker...)
 - AND NEED TO CORRECT FOR MICROSCOPE CALIBRATION PIXEL PER MICRON!!!!!
 
+Accidentally turned PC1 off a few times mid-analysis of the shutter series, it momentarily was so quiet...
+- after this, proceeded and it seemed that with better selected starting conditions, the drifting effect seen earlier disappears... pretty sure it never used to be this long to detect/analyse a single file...
+
+- Debating whether to send Pietro the report as is before I head home, with a partially filled results section (but at least more of a plan). The problem is, it's not yet - submissable, and I know that if I leave it for a few days it's gonna take a while to get back into it!
+- Gotta use his help while we can (a few days before deadline he can't give as many pointers)
+Aaaand we hit the 1000th line in the lab notes!!!! Plus on ~4400 words of report, not a bad day all round :)
