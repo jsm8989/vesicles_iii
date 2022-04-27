@@ -998,3 +998,23 @@ Accidentally turned PC1 off a few times mid-analysis of the shutter series, it m
 - Debating whether to send Pietro the report as is before I head home, with a partially filled results section (but at least more of a plan). The problem is, it's not yet - submissable, and I know that if I leave it for a few days it's gonna take a while to get back into it!
 - Gotta use his help while we can (a few days before deadline he can't give as many pointers)
 Aaaand we hit the 1000th line in the lab notes!!!! Plus on ~4400 words of report, not a bad day all round :)
+
+
+
+
+### 27/4/22
+After exam break, I am back. Over the last few days I hit "run" on a few of the matlab scripts to get some more results out of data, but haven't looked at them yet. Viola has sent me an updated version of singleRBC (and identified that the error was using Nrad=300 instead of 360...).
+
+Group presentation tomorrow so will be nice to have some results to show.
+
+Ideally need to convert matlab data into something workable with python
+
+Also need a plan for TNA prep: 
+- make some vesicles with other signal generator tomorrow morning
+- image them in the afternoon, and make some more (a few batches may end up being useful)
+- ask Emma about the vacuum chambers and if she has any nice MF trapping devices -- supposed to be in tomorrow!
+- See if Sam wants to print me an OFM?
+- Get the assay from the BSS fridge and check it out
+- 3D print some more stuff (might take some time)
+- Check out the (?)tif files from Timo the other day, and work out if I need to go again
+
