@@ -1018,3 +1018,36 @@ Also need a plan for TNA prep:
 - 3D print some more stuff (might take some time)
 - Check out the (?)tif files from Timo the other day, and work out if I need to go again
 
+
+
+
+
+### 28/4/22 Group presentation
+Harry pulled out due to NPE tomorrow, so I had much more time. _technically_, the largest in-person group meeting I have been to! Viola also joined from Italy!
+
+Overall feedback: 
+- shorter in the actual presentation (think I took ~45 mins - with Qs thrown in)
+- Should have asked VIola about questions first 
+- Also didn't notice when the zoom ran out, sorry Leonardo and Viola...
+- When presenting: focus on the one key results, ie work on getting them and show the examiner the one thing to be happy about (will give higher marks). Can then have a conclusion slide with other stuff that was attempted.
+- Examiner will be seeing about 2 presentations in a space of a few days, so hit the points home
+- They will also decide if I can use slides or not. If not, print out the key figures.
+- Also can for sure talk about things that have happened since submitting the report - this is about the science, not just a report (ie submission != stop analysis).
+- Don't present too many different ideas. Eg choose one form for the PS fit to show. 
+- Font didn't show up very nicely on the projector (or my laptop), so had to point it out. \[side note: this could actually be an interesting prompt since you know where the font is, but the audience might not necessarily notice it\].
+- 
+
+
+My feeling:
+- I do feel like it dragged on a bit, but some were sufficiently engaged to ask questions :)
+- Probably the longest presentation I've ever given
+- Didn't really explain a lot of the stuff, eg when showing the first power spectrum someone asked "what are we seeing"
+
+
+
+Questions:
+- Boyko: what is the optimal video duration? Ie is there an effect of averaging over time? Also is the high-q cutoff movie-dependent? How do do you choose? 
+- Morten: what are we seeing there in the electroformation picture? Is that your setup or the Bulgarians? Can you choose the fitting range? How do these fluctuations arise, and do they not average to zero? 
+- Ricardo: (...)
+- Sam: what is this showing us (the power spectrum) and "is that green line straight or are my eyes being funny". Also, have you enjoyed it enough to stay (quite enthusiastically :) ). Also, do we get to go in the centrifuge?
+- 
