@@ -1069,3 +1069,9 @@ A few things gone wrong:
 - Used coarse, 550 settings and the auto-levelling was also much quicker this time (the reservoir exposure supposedly took ~2.5hours)
 - Still not successfully put fluid through the MF chip :(
 - Will I need to buy more arduinos etc? Last day I can order these...
+- My card access to the microfluidics room seems to be gone as of today (working fine yesterday), and security aren't in until Tuesday so won't be able to get that fixed...
+
+
+Tried imaging today's vesicles (yesterday's were non existent). Did not have much luck (even in a brand new well - still looked very dirty).
+
+Made another batch today and will try imaging when they're done in ~30 mins, which is also when PDMS bake #3 of the day is due. Also managed to expose two different things on the DLW so fairly big shift today. Likely back in tomorrow to check the devices, make more vesicles. Need to message Roger about potentially using the signal generator next week...
