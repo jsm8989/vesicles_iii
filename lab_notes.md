@@ -1050,4 +1050,22 @@ Questions:
 - Morten: what are we seeing there in the electroformation picture? Is that your setup or the Bulgarians? Can you choose the fitting range? How do these fluctuations arise, and do they not average to zero? 
 - Ricardo: (...)
 - Sam: what is this showing us (the power spectrum) and "is that green line straight or are my eyes being funny". Also, have you enjoyed it enough to stay (quite enthusiastically :) ). Also, do we get to go in the centrifuge?
-- 
+
+
+
+### 29/4/22
+Focused day on ESA prep.
+
+Arrived at 7:30 to
+- put on EF
+- pour PDMS on old si wafer that I used mostly last night
+- start cutting new profile (simple no trap channel plus large reservoir for worst case)
+
+
+
+A few things gone wrong:
+- had the weird problem with ITO slides *again*, having had it last night... these are sadly not limitless!
+- The DLW did not manage to expose the second of the larger reservoirs (which I put on after cutting the 2 simple serpentines, which took about 10 mins).
+- Used coarse, 550 settings and the auto-levelling was also much quicker this time (the reservoir exposure supposedly took ~2.5hours)
+- Still not successfully put fluid through the MF chip :(
+- Will I need to buy more arduinos etc? Last day I can order these...
