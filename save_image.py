@@ -47,7 +47,8 @@ if frame_choice == -1: # show all frames. NB this is long!
 else:
 	frame = m.get_frame(frame_choice)
 	img = Image.fromarray(frame)
-	img.show()
+	#img.show()
+	print("Image metadata:\n{}".format(m.header))
 	response = input("Do you want to save this image? (y/N) ")
 	if response == "y":
 		img.save("image.png") # should give a more meaningful name based on the file input and frame...
