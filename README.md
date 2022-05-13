@@ -1,13 +1,13 @@
 ##### Guide to the repo:
 - Lab notes in `lab_notes.md`
 - `.xml` files are for interfacing with Temika microscope
-- All data is in [\\sf3\cicutagroup\jsm89] on the BSS network; some of the analysis results is in [Z:\code] which is also where this repo is found
+- All data is in [\\sf3\cicutagroup\jsm89] on the BSS network; some of the analysis results is in [Z:\code] which is also where this repo is found (as well as containing many other git repos with the bulk of the contour detection and analysis code)
 - /plugins contains ImageJ plugins for reading `.movie` files
 - /protocols contains reference material for different lab techniques
 - /images contains media which have been included in the lab notes
-- 
-- Sample data
-- Useful scripts (mostly python) for simulation, interfacing with temika, ImageJ(?), and extracting bending modulus from movie files
+- /scripts contains helper python scripts
+- /example_files contains sample data and their associated contours to run a sample analysis
+- /oiffiles contains a few things related to reading Olympus images, but in the end weren't used much
 
 
 #### TODO
