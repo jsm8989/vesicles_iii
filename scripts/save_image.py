@@ -1,7 +1,7 @@
 import sys
-sys.path.append("../python-temika-reader")
-sys.path.append("../contour_analyzer")
-sys.path.append("../moviereader")
+sys.path.append("../../python-temika-reader")
+sys.path.append("../../contour_analyzer")
+sys.path.append("../../moviereader")
 
 
 #from read_cpp_contour import load_contour_cpp
