@@ -1,4 +1,4 @@
-##### Guide to the repo (eventually):
+##### Guide to the repo:
 - Lab notes in `lab_notes.md`
 - `.xml` files are for interfacing with Temika microscope
 - All data is in [\\sf3\cicutagroup\jsm89] on the BSS network; some of the analysis results is in [Z:\code] which is also where this repo is found
@@ -10,7 +10,7 @@
 - Useful scripts (mostly python) for simulation, interfacing with temika, ImageJ(?), and extracting bending modulus from movie files
 
 
-### TODO (23/2)
+#### TODO
 - (ALMOST DONE) Get flickering analysis to work for my data in user-friendly way
 - DONE Contribute to section 4.1 of Temika guide
 - Modify Guil's simulation dynamics for RBCs
