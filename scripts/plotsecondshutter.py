@@ -10,10 +10,10 @@ import matplotlib.pyplot as plt
 #filename= 'BF_2.28Mar2022_15.42.44_8.20_forPython.mat'
 
 #fig, (ax1, ax2) = plt.subplots(2, sharex=True, sharey=True)
-for file in os.listdir('Z:\code\jamie_matlab_scripts\\'):
-    if "v3_BF_20x_shutter" in str(file):
-        #print(file)
-        data1 = sio.loadmat('Z:\code\jamie_matlab_scripts\\'+file)
+for file in os.listdir('\\\\sf3\\cicutagroup\\jsm89\\'):
+    if ("v3_BF_20x_shutter" in str(file)) and ("forPython" in str(file)):
+        print(file)
+        data1 = sio.loadmat('\\\\sf3\\cicutagroup\\jsm89\\'+file)
 
         #print(data)
         #time = float(file[18:26])
