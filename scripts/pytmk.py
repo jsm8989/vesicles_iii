@@ -3,10 +3,19 @@ import struct
 import numpy as np
 import datetime
 from pathlib import Path
+from typing import Union, Dict
 
 
 class Movie:
-    def __init__(self, filename: Path) -> None:
+    def __init__(self, filename: Union[Path, str]) -> None:
+        """_summary_
+
+        Args:
+            filename (Union[Path, str]): _description_
+
+        Returns:
+            _type_: _description_
+        """
         self.filename = filename
         self.file = open(filename, "rb")
 
@@ -23,17 +32,17 @@ class Movie:
 
         self.max_pixel_depth = 2**16 - 1
 
-        def binary_n_frames():
+        def binary_n_frames() -> int:
             """Finds number of frames using binary search"""
 
-            def is_frame(i):
+            def is_frame(i) -> bool:
                 self.file.seek(self.gap_between_frames * i)
                 return (
                     len(self.file.read(self.gap_between_frames))
                     == self.gap_between_frames
                 )
 
-            def is_last_frame(i):
+            def is_last_frame(i) -> bool:
                 return is_frame(i) and not is_frame(i + 1)
 
             l = 0
@@ -52,7 +61,19 @@ class Movie:
 
         self.n_frames = binary_n_frames()
 
-    def _read_movie_header(self):
+    def _read_movie_header(self) -> None:
+        """_summary_
+
+        Raises:
+            Exception: _description_
+            Exception: _description_
+            Exception: _description_
+            Exception: _description_
+            Exception: _description_
+
+        Returns:
+            _type_: _description_
+        """
         magic_word = "TemI"
 
         def read(s):
@@ -219,7 +240,18 @@ class Movie:
                 "Invalid camera type: Must be 1 for IIDC, 2 for Andor, and 3 for Ximea"
             )
 
-    def get_frame_header(self, i):
+    def get_frame_header(self, i: int) -> Dict:
+        """_summary_
+
+        Args:
+            i (int): _description_
+
+        Raises:
+            Exception: _description_
+
+        Returns:
+            Dict: _description_
+        """
         if self.camera_name == "IIDC":
             # Time is in microseconds!
             struct_string = (
@@ -356,7 +388,7 @@ class Movie:
 
         return header_dict
 
-    def get_frame(self, i):
+    def get_frame(self, i: int):
         """Read the ith frame of data as an array of 16-bit quantities"""
 
         if i > self.n_frames - 1:
@@ -394,7 +426,7 @@ class Movie:
             ).astype("B")
 
     def frames(self, *args):
-        """Returns a generator of frames. Should work like range()"""
+        """Returns a generator of frames. Should work like range(). TODO: workout typing"""
         iterable = False
         if len(args) == 0:
             start = 0
@@ -431,21 +463,33 @@ class Movie:
                 yield self.get_frame(i)
 
     def destroy(self):
+        """TODO: find out where this is used"""
         self.file.close()
         self.file = None
 
-    def frame_time(self, i, true_time=False):
+    def frame_time(self, i: int, true_time: bool = False) -> str:
+        """_summary_
+
+        Args:
+            i (int): _description_
+            true_time (bool, optional): _description_. Defaults to False.
+
+        Returns:
+            str: _description_
+        """
         if self.camera_name == "IIDC":
             time_delta = datetime.timedelta(
                 0, 0, self.get_frame_header(i)["timestamp"]
             ) - datetime.timedelta(0, 0, self.get_frame_header(0)["timestamp"])
             total_seconds = time_delta.total_seconds()
             if true_time:
-                return total_seconds
+                return str(total_seconds)
             hours = int(total_seconds) // (60 * 60)
             minutes = (int(total_seconds) % (60 * 60)) // (60)
             seconds = total_seconds % 60
-            string = "Time = {:02d}:{:02d}:{:05.2f}".format(hours, minutes, seconds)
+            output_time = "Time = {:02d}:{:02d}:{:05.2f}".format(
+                hours, minutes, seconds
+            )
         elif self.camera_name == "Ximea" or self.camera_name == "Andor":
             seconds_elapsed = (
                 self.get_frame_header(i)["timestamp_sec"]
@@ -457,10 +501,12 @@ class Movie:
             )
             total_seconds = seconds_elapsed + nanoseconds_elapsed * (1e-9)
             if true_time:
-                return total_seconds
+                return str(total_seconds)
             hours = int(total_seconds) // (60 * 60)
             minutes = (int(total_seconds) % (60 * 60)) // (60)
             seconds = total_seconds % 60
-            string = "Time = {:02d}:{:02d}:{:05.3f}".format(hours, minutes, seconds)
+            output_time = "Time = {:02d}:{:02d}:{:05.3f}".format(
+                hours, minutes, seconds
+            )
 
-        return string
+        return output_time
