@@ -1,19 +1,12 @@
 import os
 import scipy.io as sio
-import sys
 import matplotlib.pyplot as plt
+from pathlib import Path
 
-# load .mat file from cicutagroup/jsm89
-# filename = str((sys.argv[1]))
-
-
-# filename= 'BF_2.28Mar2022_15.42.44_8.20_forPython.mat'
-
-# fig, (ax1, ax2) = plt.subplots(2, sharex=True, sharey=True)
-for file in os.listdir("\\\\sf3\\cicutagroup\\jsm89\\"):
+for file in os.listdir(Path("\\\\sf3\\cicutagroup\\jsm89\\")):
     if ("v3_BF_20x_shutter" in str(file)) and ("forPython" in str(file)):
         print(file)
-        data1 = sio.loadmat("\\\\sf3\\cicutagroup\\jsm89\\" + file)
+        data1 = sio.loadmat(Path("\\\\sf3\\cicutagroup\\jsm89\\" + file))
 
         # print(data)
         # time = float(file[18:26])

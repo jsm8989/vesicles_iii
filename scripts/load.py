@@ -1,19 +1,13 @@
-import sys
-
-sys.path.append("../python-temika-reader")
-sys.path.append("../contour_analyzer")
-sys.path.append("../moviereader")
-sys.path.append("Z:\data_remote")
-
-from contour_fitter import load_contour_cpp  # in contour_analyzer
-from pytmk import Movie  # in python-temika-reader
+from moviereader import contour_tracker
+from contour_analyzer.contour_fitter import load_contour_cpp  # in contour_analyzer
+from vesicles_iii.scripts.pytmk import Movie
+from pathlib import Path
 import matplotlib.pyplot as plt
 from PIL import Image
-import contour_tracker  # in moviereader
 import numpy as np
 
 
-m = Movie("../well_C5_cell_0000.movie")  # test data
+m = Movie(Path("../well_C5_cell_0000.movie"))  # test data
 
 print("There are {} frames in this movie".format(m.n_frames))
 

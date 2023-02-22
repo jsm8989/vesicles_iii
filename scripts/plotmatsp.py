@@ -1,8 +1,8 @@
 import os
 import scipy.io as sio
-import sys
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
+from pathlib import Path
 
 # filename= 'BF_2.28Mar2022_15.42.44_8.20_forPython.mat'
 q_max = -1
@@ -11,10 +11,10 @@ y_values10 = []
 y_values5 = []
 y_values15 = []
 fig, (ax1, ax2) = plt.subplots(2, sharex=True, sharey=True)
-for file in os.listdir("\\\\sf3\\cicutagroup\\jsm89\\"):
+for file in os.listdir(Path("\\\\sf3\\cicutagroup\\jsm89\\")):
     if ("v1_BF_20x_shutter" in str(file)) and ("forPython" in str(file)):
         # print(file)
-        data1 = sio.loadmat("\\\\sf3\\cicutagroup\\jsm89\\" + file)
+        data1 = sio.loadmat(Path("\\\\sf3\\cicutagroup\\jsm89\\" + file))
 
         time = float(file[18:26])
         if time < 0.001:

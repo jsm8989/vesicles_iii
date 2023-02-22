@@ -1,20 +1,16 @@
-import sys
-
-sys.path.append(
-    "python-temika-reader"
-)  # NB when doing this need to run the script from it's own dir
+from vesicles_iii.scripts.pytmk import Movie
 from contour_analyzer.contour_fitter import (
     load_contour_cpp,
     default_fit_parameters,
     celsius_to_kT,
 )
-from pytmk import Movie
 import matplotlib.pyplot as plt
 import os
+from pathlib import Path
 
 min_len = 200
 path = "\\\\sf3\\cicutagroup\\jsm89\\"
-m = Movie(path + "v8_BF_40x.12Apr2022_15.01.16.movie")
+m = Movie(Path(path + "v8_BF_40x.12Apr2022_15.01.16.movie"))
 cf = path + "v8_BF_40x.12Apr2022_15.01.16_contour_full.txt"
 
 ## should work, throws TypeError :()
@@ -46,7 +42,7 @@ if True == True:
     mf = cf.split("_contour_full.txt")[0] + ".movie"
     if os.path.isfile(mf):
         fit_param["movie_file"] = mf
-        m = Movie(mf)
+        m = Movie(Path(mf))
         header = m.header
         fit_param["extra_info"] = header
         if "Temperature=" in header:

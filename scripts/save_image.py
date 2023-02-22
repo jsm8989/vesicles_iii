@@ -1,15 +1,12 @@
 import sys
 
-sys.path.append("../../python-temika-reader")
 sys.path.append("../../contour_analyzer")
 sys.path.append("../../moviereader")
 
 
-# from read_cpp_contour import load_contour_cpp
-from pytmk import Movie
-
-# import matplotlib.pyplot as plt
+from vesicles_iii.scripts.pytmk import Movie
 from PIL import Image
+from pathlib import Path
 
 
 """
@@ -34,12 +31,12 @@ Current files in data_remote as of 24/2/22 (for easy changing):
 
 
 filename = sys.argv[1]
-m = Movie(filename)
+m = Movie(Path(filename))
 n_frames = str(m.n_frames)
-print("There are " + n_frames + " frames in this movie")
+print(f"There are {n_frames} frames in this movie")
 
 frame_choice = int(
-    input('Which frame do you want? (int < n_frames, choose -1 for "all") ')
+    input("Which frame do you want? (int < n_frames, choose -1 for all): ")
 )  # should add a range option (although don't spend too much time on this)
 if frame_choice == -1:  # show all frames. NB this is long!
     frames = []
@@ -52,8 +49,8 @@ else:
     frame = m.get_frame(frame_choice)
     img = Image.fromarray(frame)
     # img.show()
-    print("Image metadata:\n{}".format(m.header))
-    response = input("Do you want to save this image? (y/N) ")
+    print(f"Image metadata:\n{m.header}")
+    response = input("Do you want to save this image? (y/N): ")
     if response == "y":
         img.save(
             "image.png"
