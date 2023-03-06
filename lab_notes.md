@@ -55,10 +55,10 @@ Chat with Guil about simulating the fluctuations
 - This could be linked to the discussion overheard by Anna a few weeks ago regarding replacing the plasma bonder
 
 Thoughts:
-	- Shame not to have done more chip experimentation last week, I did not think to ask around beyond Morten, who was the designated microfluidics person and was ill, hence I stayed in Cambridge an extra few days (planning to leave tomorrow)
-	- Quite tired now and even though end of term has been quite relaxed, I didn’t make as much project progress (at least not ESA wise) as I hoped
-	- Currently planning to return on the 10th of January, apparently by then a new microfluidics expert is joining the (group? Department? building?). Maybe I should come back a few days earlier to try hard to get this working prototype ready for 21st Jan (as requested by ESA).
-	- Exams ahh! 
+- Shame not to have done more chip experimentation last week, I did not think to ask around beyond Morten, who was the designated microfluidics person and was ill, hence I stayed in Cambridge an extra few days (planning to leave tomorrow)
+- Quite tired now and even though end of term has been quite relaxed, I didn’t make as much project progress (at least not ESA wise) as I hoped
+- Currently planning to return on the 10th of January, apparently by then a new microfluidics expert is joining the (group? Department? building?). Maybe I should come back a few days earlier to try hard to get this working prototype ready for 21st Jan (as requested by ESA).
+- Exams ahh! 
 
 Questions:
 - What to do with old PDMS?
@@ -90,9 +90,10 @@ Other plans for holiday:
 
 ### 27/1/22
 Group meeting this afternoon. Aske presentation on post-transcriptional regulation in sRNA. Questions for Pietro:
-	- MATLAB routine for confocal contour processing? Is this different to fluoro ones (and why? - check with Guil) >> Guil has the most recent ones
-	- Are there any other BF/fluoro microscopes to check samples when tweezers room is in use/CL3? >> 0.34 or something (another Temika - ask Guil) and in the Tissue Culture room.
-	- What is the plan with the Olympus?
+- MATLAB routine for confocal contour processing? Is this different to fluoro ones (and why? - check with Guil) >> Guil has the most recent ones
+- Are there any other BF/fluoro microscopes to check samples when tweezers room is in use/CL3? >> 0.34 or something (another Temika - ask Guil) and in the Tissue Culture room.
+- What is the plan with the Olympus?
+- 
 - Have booked confocal for 16:30-17:30, post engineer service
 - Plasma bonded PDMS cutout to cover slip for confocal imaging this afternoon, will use vesicle sample from monday, using 80uL of 400mM glucose and 20uL of vesicles produced with 300mM sucrose. 
 - Confocal notes:
