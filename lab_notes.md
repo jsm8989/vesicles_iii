@@ -277,22 +277,21 @@ ESA meeting in the evening:
 - Made some (non-fluoro) vesicles with new sucrose solution made yesterday, cleaned vessel for making a new fluorescent lipid solution - Roger pointed out that the excat ratios are important for this work and that it would not be sensible to just add an arbitrary amount of TR into my (depleted) older lipid mixture
 - Started playing around with lif files on ImageJ as I realie this is a whole different step to the movie file analysis which I been spending significant time on
 - Tomorrow: 
-- 	Make up lipid mixture
-- 	Image this set of vesicles
-- 	Make up BSA solution using Michal's stock
-- 	Passivate MF
-- 	Bring in electronics to discuss with Shash
-- 	Ask Guil if he has any routines for analysing lif files
+	- Make up lipid mixture
+	- Image this set of vesicles
+	- Make up BSA solution using Michal's stock
+	- Passivate MF
+	- Bring in electronics to discuss with Shash
+	- Ask Guil if he has any routines for analysing lif files
 
 
 ### 16/2/22
 - Successful imaging on Nikon after finding notes from Jurij meeting - able to get it very clear
-- 	 one thing to check is how to centre the filter at the top when you want to focus it on a certain part of your sample
+- one thing to check is how to centre the filter at the top when you want to focus it on a certain part of your sample
 - Now need to rememberhow to send the data to the Z drive from here; could write a script for it. 
 - Also need to ask Guil what osmolarities we used in the past to get nice floppy stuff. These were not fluorescent so not too important for today anyway
 - Also need to find corerct tubing size if I'm gonna have any chance of trapping the vesicles in the MF device, as injecting them in via syringe tubing today just led to leakage (mostly)
-
-
+- 
 - Success in terms of remote connection from Nikon computers: you can run `ssh jsm89@sf1.bss.phy.private.cam.ac.uk` and get straight into the Z:/jsm89 directory
 - Could create a local bash script which copies all movie files from a given date (eg using `scp *16Feb2022* jsm89@sf1.bss.phy.private.cam.ac.uk:~/data_remote/`) 
 - Note the bigger files take a while, as expected!
