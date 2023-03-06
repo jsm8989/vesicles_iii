@@ -9,12 +9,12 @@ A general space for writing about things in the lab. Will likely be messy. Some 
 - Added 892uL of chloroform (inside the foom hood) to it, vortexed, proceeded as usual. Will be interesting to see what the fluoro looks like (on pipetting, it does not look very pink…)
 - Usual dessicator isn’t free! Used greasy one on top shelf.
 Done for today; to do at some point:
-- Get on the github, review project meeting just now
-- Make up sucrose/glucose
-- Get on the Nikons
-- Pester Morten (DLW is a mess)
-- Order TR, DOPC? For the more precise stuff
-- Clean up my old stuff, review notes, set up lab notebook
+	- Get on the github, review project meeting just now
+	- Make up sucrose/glucose
+	- Get on the Nikons
+	- Pester Morten (DLW is a mess)
+	- Order TR, DOPC? For the more precise stuff
+	- Clean up my old stuff, review notes, set up lab notebook
 
 ### 1/11/21
 - Microscope training with Jurij
