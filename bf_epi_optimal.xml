@@ -87,9 +87,9 @@
 	</illumination>-->
 	
 	<!-- AUTOMATIC DISPLAY PIXEL RANGE?! -->
-	<display>
-	  	<pixel_range mode="auto"></pixel_range> <!-- not sure if this is right -->
-	</display>
+	<!--<display>
+	  	<pixel_range mode="auto"></pixel_range>
+	</display>-->
 		
 	<save>
 		<header>Vesicle {} in {} well, objective = {}x0.{}, fps = {}, 1.5xmag = {}, {other_comments}, {which_scope}.</header>
