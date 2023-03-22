@@ -83,12 +83,14 @@
 	</multiled>
 	
 	<illumination> 
-	  <trigger>EXTERNAL_0</trigger> <!-- not sure if this is right -->
+		<sequence_enable>ON</sequence_enable> <!-- Enable sequence -->
+		<sequence_reset></sequence_reset> <!-- Reset sequence -->
+		<trigger_in>0x1</trigger_in> <!-- Different triggers... I think 0x1 is the only one used -->
 	</illumination>
 	
 	<!-- AUTOMATIC DISPLAY PIXEL RANGE?! -->
 	<display>
-	  <pixel_range mode="auto"></pixel_range> <!-- not sure if this is right -->
+	  	<pixel_range mode="auto"></pixel_range> <!-- not sure if this is right -->
 	</display>
 		
 	<save>
