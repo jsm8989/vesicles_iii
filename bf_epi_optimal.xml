@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!--*- mode: xml -*-->
+<temika>
+
+	
+	<camera name="IIDC Point Grey Research Grasshopper3 GS3-U3-23S6M">
+		<select></select>
+		<name>jamie's New Name</name>
+		<transmission>ON</transmission>
+		<!--<filter_dll>/home/jk400/utilities/filter_camera.so</filter_dll>
+		<filter_enable>ON</filter_enable>
+		<send_trigger></send_trigger>
+		<trigger_timeout>5.2</trigger_timeout>-->
+		<record>OFF</record>
+		
+
+
+	
+		<iidc>
+			<video_mode>7</video_mode>
+			<color_coding>MONO16</color_coding>
+			<size>1920 1200 0 0</size> <!--size_x, size_y, position_x, position_y-->
+			<packet_size>47800</packet_size>
+			<trigger>INTERNAL</trigger> <!-- INTERNAL, EXTERNAL0, EXTERNAL1, EXTERNAL15, SOFTWARE -->
+			
+			<brightness mode="relative">0</brightness> <!-- off, relative, absolute, auto -->
+			<exposure mode="relative">1</exposure>
+			<sharpness mode="auto"></sharpness>
+			<gamma mode="off"></gamma>
+			<shutter mode="relative">1245</shutter> <!-- want max, possibly changes -->
+			<gain mode="relative">157</gain>
+			<trigger_delay mode="off"></trigger_delay>
+			<frame_rate mode="relative">482</frame_rate> <!-- should be ~80fps -->
+			
+			<!--<avt_channel_balance>-277</avt_channel_balance>-->
+		</iidc>
+
+		
+	</camera>
+
+	<microscope>
+		<eclipsetie>
+			<light_path>L100</light_path> <!-- EYE, L100, R100, L80 -->
+			<pfs_enable>ON</pfs_enable>
+			<pfs_offset>247.975</pfs_offset> <!-- for cover slip base with 20X; not sure if this works anyway  on tweezers -- >
+			<pfs_status></pfs_status> <!-- reply: offset, focus, enabled, moving, limit_low, limit_high -->
+			<zdrive_status></zdrive_status> <!-- reply: position, escape, moving, moving, limit_low, limit_high -->
+			<dialamp_control>OFF</dialamp_control>
+			<dialamp_enable>OFF</dialamp_enable> <!-- sometimes issues here -->
+			<dialamp_intensity>50</dialamp_intensity> <!-- 0 .. 255 -->
+			<filter_block_cassette>1</filter_block_cassette> <!-- 1 .. 6, will depend on filter location! -->
+			<condenser>2</condenser><!-- 1 .. 5, not sure what this means -->
+		</eclipsetie>
+		
+		<intensilight>
+		</intensilight>
+		
+		<xystage axis="x">
+		</xystage>
+	</microscope>
+
+	
+	<multiled device="microscope" >
+		<record>OFF</record> <!-- ON, OFF -->
+		
+		<sequence_enable>OFF</sequence_enable> <!-- Enable sequence -->
+		<sequence_reset></sequence_reset> <!-- Reset sequence -->
+		<sequence_steps_number>2</sequence_steps_number> <!-- Number of steps in a sequence, 1->6 -->
+		<sequence_step number="0">CHANNEL0_LED2</sequence_step> <!-- NONE, CHANNEL0_LED0, CHANNEL0_LED1 etc -->
+		<set channel="0">0.01998</set> <!-- intensity, 0 -> 1 -->
+		<enable channel="0">ON</enable> <!-- ON, OFF -->
+		<number channel="0">2</number> <!-- LED number, 0,1,2,3 -->
+		<set channel="1">1.0</set> <!-- intensity, 0 -> 1 -->
+		<enable channel="1">OFF</enable> <!-- ON, OFF -->
+		<number channel="1">3</number> <!-- LED number, 0,1,2,3 -->
+		<sequence_step number="1">CHANNEL1_LED3</sequence_step>
+		<set channel="0">0.01998</set> <!-- intensity, 0 -> 1 -->
+		<enable channel="0">OFF</enable> <!-- ON, OFF -->
+		<number channel="0">2</number> <!-- LED number, 0,1,2,3 -->
+		<set channel="1">1.0</set> <!-- intensity, 0 -> 1 -->
+		<enable channel="1">ON</enable> <!-- ON, OFF -->
+		<number channel="1">3</number> <!-- LED number, 0,1,2,3 -->
+	</multiled>
+	
+	<illumination> 
+	  <trigger>EXTERNAL_0</trigger> <!-- not sure if this is right -->
+	</illumination>
+	
+	<!-- AUTOMATIC DISPLAY PIXEL RANGE?! -->
+	<display>
+	  <pixel_range mode="auto"></pixel_range> <!-- not sure if this is right -->
+	</display>
+		
+	<save>
+		<header>Vesicle {} in {} well, objective = {}x0.{}, fps = {}, 1.5xmag = {}, {other_comments}, {which_scope}.</header>
+		<basename>/home/jsm89/data/BF_EPI</basename>
+		<append>DATE</append> <!-- NOTHING, UNIQUENUMBER, DATE, TWONUMBERS -->
+		<first_number_set>0</first_number_set>
+		<second_number_set>0</second_number_set>
+		<first_number_change>-1</first_number_change>
+		<second_number_change>2</second_number_change>
+	</save>
+	
+	<gui>
+		<console>ON</console> 
+		<scriptbutton_add>/home/jsm89/Documents/vesicles_iii/bf_epi_optimal.xml</scriptbutton_add> 
+	</gui>
+	
+	<!--<trap></trap>-->
+	
+
+    
+</temika>
