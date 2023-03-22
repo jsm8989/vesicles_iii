@@ -46,7 +46,7 @@
 			<pfs_status></pfs_status> <!-- reply: offset, focus, enabled, moving, limit_low, limit_high -->
 			<zdrive_status></zdrive_status> <!-- reply: position, escape, moving, moving, limit_low, limit_high -->
 			<dialamp_control>OFF</dialamp_control>
-			<dialamp_enable>OFF</dialamp_enable> <!-- sometimes issues here -->
+			<!-- <dialamp_enable>OFF</dialamp_enable> --> <!-- sometimes issues here -->
 			<dialamp_intensity>50</dialamp_intensity> <!-- 0 .. 255 -->
 			<filter_block_cassette>1</filter_block_cassette> <!-- 1 .. 6, will depend on filter location! -->
 			<condenser>2</condenser><!-- 1 .. 5, not sure what this means -->
@@ -83,8 +83,8 @@
 	</multiled>
 	
 	<illumination> 
-		<sequence_enable>ON</sequence_enable> <!-- Enable sequence -->
-		<sequence_reset></sequence_reset> <!-- Reset sequence -->
+		<sequence_enable>OFF</sequence_enable> <!-- Enable sequence -->
+		<!--<sequence_reset></sequence_reset>--> <!-- Reset sequence -->
 		<trigger_in>0x1</trigger_in> <!-- Different triggers... I think 0x1 is the only one used -->
 	</illumination>
 	
