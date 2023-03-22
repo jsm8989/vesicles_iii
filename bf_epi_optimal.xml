@@ -62,7 +62,7 @@
 	
 	<multiled device="microscope" >
 		<record>OFF</record> <!-- ON, OFF -->
-		
+		<trigger>EXTERNAL0</trigger> <!-- INTERNAL, EXTERNAL0, EXTERNAL1, EXTERNAL2 -->
 		<sequence_enable>OFF</sequence_enable> <!-- Enable sequence -->
 		<sequence_reset></sequence_reset> <!-- Reset sequence -->
 		<sequence_steps_number>2</sequence_steps_number> <!-- Number of steps in a sequence, 1->6 -->
@@ -83,9 +83,14 @@
 	</multiled>
 	
 	<illumination> 
+		<set number="0">0</set> <!-- Set each color a different intensity, between 0 and 2^16 - 1 -->
+		<set number="1">0</set> 
+		<set number="2">1000</set>
+		<set number="3">0</set>
 		<sequence_enable>OFF</sequence_enable> <!-- Enable sequence -->
 		<!--<sequence_reset></sequence_reset>--> <!-- Reset sequence -->
-		<trigger_in>0x1</trigger_in> <!-- Different triggers... I think 0x1 is the only one used -->
+		<!--<trigger_in>0x1</trigger_in>--> <!-- Different triggers... I think 0x1 is the only one used -->
+		<record>OFF</record>
 	</illumination>
 	
 	<!-- AUTOMATIC DISPLAY PIXEL RANGE?! -->
