@@ -103,7 +103,7 @@
 	
 	<gui>
 		<console>ON</console> 
-		<scriptbutton_add>/home/jsm89/Documents/vesicles_iii/bf_epi_optimal.xml</scriptbutton_add> 
+		<scriptbutton_add>/home/jsm89/Documents/vesicles_iii/bf_epi_optimal_20x.xml</scriptbutton_add> 
 	</gui>
 	
 	<!--<trap></trap>-->
